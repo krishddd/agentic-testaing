@@ -1,0 +1,64 @@
+# Web Frameworks
+langchain_experimental
+fastapi
+uvicorn
+streamlit
+pydantic
+python-dotenv
+
+# LangChain Ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchainhub
+langgraph
+langchain-google-genai
+langchain-ollama
+langchain-chroma
+PyMuPDF
+
+
+# Vector Stores
+chromadb
+faiss-cpu
+
+# ML / AI
+torch
+transformers
+accelerate
+sentence-transformers
+
+# Data Science
+pandas
+numpy
+scikit-learn
+openpyxl
+
+# Document Processing
+unstructured[all-docs]   
+pypdf
+python-docx
+beautifulsoup4
+lxml
+pint
+scipy
+
+# Retrieval / APIs
+requests
+cloudscraper
+tavily-python
+wikipedia
+yfinance
+arxiv
+duckduckgo-search
+sympy
+
+# Visualization
+matplotlib
+seaborn
+xgboost
+rank_bm25
+ddgs
+networkx
+matplotlib

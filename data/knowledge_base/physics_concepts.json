@@ -1,0 +1,461 @@
+[
+    {
+        "name": "Newton's Second Law",
+        "topic": "Forces",
+        "definition": "Force equals mass times acceleration.",
+        "formula": "F = ma",
+        "keywords": [
+            "force",
+            "mass",
+            "acceleration",
+            "newton",
+            "dynamics"
+        ],
+        "examples": [
+            "F = 10kg * 9.8m/s^2 = 98N",
+            "A 5kg object with 20N force has a = 4m/s^2"
+        ]
+    },
+    {
+        "name": "Kinematic Equations",
+        "topic": "Kinematics",
+        "definition": "Equations describing motion under constant acceleration.",
+        "formula": "v_f = v_i + at; d = v_i*t + 0.5*a*t^2; v_f^2 = v_i^2 + 2ad",
+        "keywords": [
+            "motion",
+            "displacement",
+            "velocity",
+            "time",
+            "acceleration",
+            "constant acceleration"
+        ],
+        "examples": [
+            "d = 0*10 + 0.5*9.8*10^2 = 490m",
+            "v_f = 0 + 9.8*5 = 49m/s after 5 seconds of free fall"
+        ]
+    },
+    {
+        "name": "Projectile Motion",
+        "topic": "Kinematics",
+        "definition": "Motion of an object projected into the air, subject only to acceleration due to gravity.",
+        "formula": "y = v_iy*t - 0.5*g*t^2; x = v_ix*t; Range = v^2*sin(2θ)/g",
+        "keywords": [
+            "trajectory",
+            "range",
+            "height",
+            "projectile",
+            "parabolic"
+        ],
+        "examples": [
+            "Max height: h = v_y^2 / (2g)",
+            "Ball thrown at 20m/s at 45° has range ≈ 40.8m"
+        ]
+    },
+    {
+        "name": "Newton's First Law",
+        "topic": "Forces",
+        "definition": "An object at rest stays at rest and an object in motion stays in motion unless acted upon by a net external force.",
+        "formula": "If ΣF = 0, then a = 0 (constant velocity)",
+        "keywords": [
+            "inertia",
+            "rest",
+            "motion",
+            "net force",
+            "equilibrium"
+        ],
+        "examples": [
+            "A hockey puck sliding on ice continues until friction stops it",
+            "Seatbelts needed because passengers continue forward during sudden stops"
+        ]
+    },
+    {
+        "name": "Newton's Third Law",
+        "topic": "Forces",
+        "definition": "For every action, there is an equal and opposite reaction.",
+        "formula": "F_12 = -F_21 (forces are equal in magnitude, opposite in direction)",
+        "keywords": [
+            "action",
+            "reaction",
+            "force pairs",
+            "equal and opposite"
+        ],
+        "examples": [
+            "Rocket propulsion: exhaust gases push down, rocket goes up",
+            "When you push a wall, the wall pushes back with equal force"
+        ]
+    },
+    {
+        "name": "Work-Energy Theorem",
+        "topic": "Energy",
+        "definition": "The work done on an object equals its change in kinetic energy.",
+        "formula": "W = ΔKE = KE_f - KE_i; KE = 0.5*m*v^2",
+        "keywords": [
+            "work",
+            "energy",
+            "kinetic energy",
+            "joules",
+            "power"
+        ],
+        "examples": [
+            "Work to accelerate 2kg mass from 0 to 10m/s: W = 0.5*2*10^2 = 100J",
+            "Power = Work/time = Force × velocity"
+        ]
+    },
+    {
+        "name": "Conservation of Momentum",
+        "topic": "Momentum",
+        "definition": "In a closed system, total momentum before collision equals total momentum after.",
+        "formula": "Σp_before = Σp_after; p = mv",
+        "keywords": [
+            "momentum",
+            "conservation",
+            "collision",
+            "impulse",
+            "elastic"
+        ],
+        "examples": [
+            "2kg at 5m/s + 3kg at 0m/s → combined 5kg at 2m/s",
+            "Impulse: J = Δp = F*Δt"
+        ]
+    },
+    {
+        "name": "Rotational Dynamics",
+        "topic": "Rotation",
+        "definition": "The study of rotating objects and angular motion.",
+        "formula": "τ = I*α; L = I*ω; KE_rot = 0.5*I*ω^2",
+        "keywords": [
+            "torque",
+            "angular velocity",
+            "moment of inertia",
+            "rotation",
+            "angular momentum"
+        ],
+        "examples": [
+            "Torque: τ = r × F (distance times force)",
+            "Disk: I = 0.5*m*r^2; Sphere: I = 0.4*m*r^2"
+        ]
+    },
+    {
+        "name": "First Law of Thermodynamics",
+        "topic": "Thermodynamics",
+        "definition": "Energy cannot be created or destroyed, only converted from one form to another.",
+        "formula": "ΔU = Q - W (change in internal energy = heat added - work done)",
+        "keywords": [
+            "conservation of energy",
+            "internal energy",
+            "heat",
+            "work",
+            "thermodynamics"
+        ],
+        "examples": [
+            "Adding 100J heat and doing 60J work increases internal energy by 40J",
+            "Isobaric process: constant pressure"
+        ]
+    },
+    {
+        "name": "Second Law of Thermodynamics",
+        "topic": "Thermodynamics",
+        "definition": "Entropy of an isolated system always increases; heat flows naturally from hot to cold.",
+        "formula": "ΔS ≥ 0 for isolated system; η = 1 - T_c/T_h (Carnot efficiency)",
+        "keywords": [
+            "entropy",
+            "heat flow",
+            "disorder",
+            "irreversible",
+            "efficiency"
+        ],
+        "examples": [
+            "Coffee cools down, never heats up spontaneously",
+            "Perfect heat engine impossible (η < 100%)",
+            "Carnot engine between 400K and 300K: η = 25%"
+        ]
+    },
+    {
+        "name": "Heat Transfer",
+        "topic": "Thermodynamics",
+        "definition": "Energy transfer due to temperature difference through conduction, convection, or radiation.",
+        "formula": "Conduction: Q/t = kA(ΔT/d); Radiation: P = σAT^4",
+        "keywords": [
+            "conduction",
+            "convection",
+            "radiation",
+            "heat",
+            "thermal conductivity"
+        ],
+        "examples": [
+            "Metal spoon conducts heat from hot soup",
+            "Convection currents in boiling water",
+            "Sun's energy reaches Earth via radiation"
+        ]
+    },
+    {
+        "name": "Kinetic Theory of Gases",
+        "topic": "Thermodynamics",
+        "definition": "Gases consist of many particles in random motion; temperature relates to average kinetic energy.",
+        "formula": "PV = nRT; KE_avg = (3/2)kT; v_rms = √(3kT/m)",
+        "keywords": [
+            "ideal gas",
+            "kinetic theory",
+            "temperature",
+            "pressure",
+            "molecules"
+        ],
+        "examples": [
+            "1 mole gas at 273K, 1atm occupies 22.4L",
+            "Higher temperature → faster molecular motion",
+            "PV/T = constant for fixed amount of gas"
+        ]
+    },
+    {
+        "name": "Coulomb's Law",
+        "topic": "Electrostatics",
+        "definition": "The force between two point charges is proportional to the product of charges and inversely proportional to the square of distance.",
+        "formula": "F = k*q1*q2/r^2, where k = 8.99×10^9 N⋅m^2/C^2",
+        "keywords": [
+            "electric force",
+            "charge",
+            "coulomb",
+            "electrostatic",
+            "inverse square"
+        ],
+        "examples": [
+            "Two 1μC charges 1m apart: F = 8.99×10^-3 N",
+            "Like charges repel, opposite charges attract"
+        ]
+    },
+    {
+        "name": "Electric Fields and Potential",
+        "topic": "Electrostatics",
+        "definition": "Electric field is force per unit charge; electric potential is potential energy per unit charge.",
+        "formula": "E = F/q = kQ/r^2; V = kQ/r; W = qΔV",
+        "keywords": [
+            "electric field",
+            "voltage",
+            "potential",
+            "field lines",
+            "equipotential"
+        ],
+        "examples": [
+            "Uniform field between parallel plates: E = V/d",
+            "Work to move 2C charge through 10V: W = 20J",
+            "Field points from + to - charges"
+        ]
+    },
+    {
+        "name": "Ohm's Law and Circuits",
+        "topic": "Electricity",
+        "definition": "The current through a conductor is proportional to voltage and inversely proportional to resistance.",
+        "formula": "V = IR; P = IV = I^2R = V^2/R",
+        "keywords": [
+            "current",
+            "voltage",
+            "resistance",
+            "ohm",
+            "power",
+            "circuit"
+        ],
+        "examples": [
+            "12V across 4Ω resistor: I = 3A, P = 36W",
+            "Series: R_total = R1 + R2; Parallel: 1/R_total = 1/R1 + 1/R2"
+        ]
+    },
+    {
+        "name": "Magnetic Fields",
+        "topic": "Magnetism",
+        "definition": "A magnetic field exerts force on moving charges and current-carrying wires.",
+        "formula": "F = qvB*sin(θ); F = BIL*sin(θ); B from wire: B = μ_0*I/(2πr)",
+        "keywords": [
+            "magnetic field",
+            "tesla",
+            "lorentz force",
+            "current",
+            "right-hand rule"
+        ],
+        "examples": [
+            "Proton (q=1.6×10^-19C) at 1m/s in 1T field: F = 1.6×10^-19 N",
+            "Current loop creates magnetic dipole"
+        ]
+    },
+    {
+        "name": "Electromagnetic Induction",
+        "topic": "Electromagnetism",
+        "definition": "A changing magnetic flux through a loop induces an electromotive force (EMF).",
+        "formula": "ε = -dΦ_B/dt; Φ_B = B⋅A; ε = -N*dΦ/dt (Faraday's Law)",
+        "keywords": [
+            "induction",
+            "faraday",
+            "lenz's law",
+            "flux",
+            "emf",
+            "generator"
+        ],
+        "examples": [
+            "Moving magnet through coil generates current",
+            "Transformers: V_s/V_p = N_s/N_p",
+            "Lenz's law: induced current opposes change"
+        ]
+    },
+    {
+        "name": "Maxwell's Equations",
+        "topic": "Electromagnetism",
+        "definition": "Four fundamental equations unifying electricity and magnetism, predicting electromagnetic waves.",
+        "formula": "∇⋅E = ρ/ε_0; ∇⋅B = 0; ∇×E = -∂B/∂t; ∇×B = μ_0J + μ_0ε_0∂E/∂t",
+        "keywords": [
+            "maxwell",
+            "electromagnetic waves",
+            "light",
+            "gauss",
+            "ampere"
+        ],
+        "examples": [
+            "Electromagnetic waves travel at c = 3×10^8 m/s",
+            "Light is an electromagnetic wave",
+            "Changing E field creates B field and vice versa"
+        ]
+    },
+    {
+        "name": "Wave Properties",
+        "topic": "Waves",
+        "definition": "Waves are disturbances that transfer energy through a medium or space.",
+        "formula": "v = fλ (velocity = frequency × wavelength); T = 1/f",
+        "keywords": [
+            "wavelength",
+            "frequency",
+            "amplitude",
+            "wave speed",
+            "period"
+        ],
+        "examples": [
+            "Sound at 440Hz with λ=0.78m travels at v=343m/s",
+            "Light: f=5×10^14Hz, λ=600nm (orange)",
+            "Transverse vs longitudinal waves"
+        ]
+    },
+    {
+        "name": "Wave Interference and Diffraction",
+        "topic": "Waves",
+        "definition": "Waves can combine (interfere) constructively or destructively; diffraction is bending around obstacles.",
+        "formula": "Constructive: path difference = nλ; Destructive: path difference = (n+0.5)λ",
+        "keywords": [
+            "interference",
+            "diffraction",
+            "superposition",
+            "constructive",
+            "destructive"
+        ],
+        "examples": [
+            "Double-slit: bright fringes at d*sin(θ) = nλ",
+            "Noise-canceling headphones use destructive interference",
+            "Water waves bend around harbor entrance"
+        ]
+    },
+    {
+        "name": "Doppler Effect",
+        "topic": "Waves",
+        "definition": "The observed frequency of a wave changes when the source or observer is moving.",
+        "formula": "f' = f(v ± v_o)/(v ∓ v_s), + for approaching, - for receding",
+        "keywords": [
+            "doppler",
+            "frequency shift",
+            "red shift",
+            "blue shift",
+            "sound"
+        ],
+        "examples": [
+            "Ambulance siren sounds higher when approaching, lower when receding",
+            "Redshift of distant galaxies shows universe expansion",
+            "Radar guns use doppler shift to measure speed"
+        ]
+    },
+    {
+        "name": "Reflection and Refraction",
+        "topic": "Optics",
+        "definition": "Light reflection obeys angle of incidence = angle of reflection; refraction is bending when entering different medium.",
+        "formula": "Snell's Law: n1*sin(θ1) = n2*sin(θ2); n = c/v (refractive index)",
+        "keywords": [
+            "reflection",
+            "refraction",
+            "snell's law",
+            "index of refraction",
+            "total internal reflection"
+        ],
+        "examples": [
+            "Light from air (n=1) to water (n=1.33) bends toward normal",
+            "Mirror: θ_i = θ_r",
+            "Critical angle for total internal reflection: sin(θ_c) = n2/n1"
+        ]
+    },
+    {
+        "name": "Lenses and Mirrors",
+        "topic": "Optics",
+        "definition": "Curved surfaces that focus or diverge light through reflection or refraction.",
+        "formula": "1/f = 1/d_o + 1/d_i; M = -d_i/d_o = h_i/h_o",
+        "keywords": [
+            "lens",
+            "mirror",
+            "focal length",
+            "magnification",
+            "image"
+        ],
+        "examples": [
+            "Convex lens: f > 0 (converging); Concave: f < 0 (diverging)",
+            "Object at 2f from lens produces real, inverted, same-size image at 2f",
+            "Magnifying glass uses convex lens"
+        ]
+    },
+    {
+        "name": "Wave Nature of Light",
+        "topic": "Optics",
+        "definition": "Light exhibits wave properties including interference and diffraction.",
+        "formula": "Young's double-slit: d*sin(θ) = mλ for bright fringes",
+        "keywords": [
+            "wave-particle duality",
+            "interference",
+            "diffraction",
+            "polarization",
+            "coherence"
+        ],
+        "examples": [
+            "Double-slit experiment shows light interference",
+            "Thin film interference creates rainbow colors in soap bubbles",
+            "Polarized sunglasses block certain light orientations"
+        ]
+    },
+    {
+        "name": "Special Relativity",
+        "topic": "Modern Physics",
+        "definition": "Laws of physics are the same in all inertial frames; speed of light is constant for all observers.",
+        "formula": "E = mc^2; Time dilation: Δt' = γΔt; Length contraction: L' = L/γ; γ = 1/√(1-v^2/c^2)",
+        "keywords": [
+            "relativity",
+            "einstein",
+            "spacetime",
+            "time dilation",
+            "mass-energy equivalence"
+        ],
+        "examples": [
+            "1kg mass has energy equivalent E = 9×10^16 J",
+            "GPS satellites account for time dilation",
+            "Nothing with mass can reach speed of light"
+        ]
+    },
+    {
+        "name": "Quantum Mechanics Basics",
+        "topic": "Modern Physics",
+        "definition": "Matter and energy exhibit both wave and particle properties at atomic scales.",
+        "formula": "E = hf (photon energy); λ = h/p (de Broglie wavelength); ΔxΔp ≥ ℏ/2 (uncertainty)",
+        "keywords": [
+            "quantum",
+            "wave-particle duality",
+            "photon",
+            "planck",
+            "uncertainty principle"
+        ],
+        "examples": [
+            "Photon with f=5×10^14Hz has E=3.3×10^-19J",
+            "Electron diffraction shows wave nature",
+            "Cannot simultaneously know exact position and momentum",
+            "Photoelectric effect proves light is quantized"
+        ]
+    }
+]

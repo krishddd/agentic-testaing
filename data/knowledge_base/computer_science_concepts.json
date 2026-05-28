@@ -1,0 +1,356 @@
+[
+    {
+        "name": "Sorting Algorithms - Overview",
+        "topic": "Algorithms",
+        "definition": "Algorithms that arrange elements in a specific order (ascending/descending).",
+        "formula": "Compare and swap elements based on ordering criteria",
+        "keywords": [
+            "sort",
+            "sorting",
+            "comparison",
+            "order",
+            "array"
+        ],
+        "examples": [
+            "Bubble sort: O(n²), simple",
+            "Merge sort: O(n log n), divide-and-conquer",
+            "Quick sort: O(n log n) average, O(n²) worst"
+        ]
+    },
+    {
+        "name": "Binary Search",
+        "topic": "Algorithms",
+        "definition": "Efficient search algorithm for sorted arrays by repeatedly dividing search interval in half.",
+        "formula": "T(n) = T(n/2) + O(1) → O(log n)",
+        "keywords": [
+            "binary search",
+            "divide and conquer",
+            "sorted",
+            "logarithmic"
+        ],
+        "examples": [
+            "Search in sorted array: O(log n)",
+            "Compare with middle element",
+            "Requires sorted input"
+        ]
+    },
+    {
+        "name": "Dynamic Programming",
+        "topic": "Algorithms",
+        "definition": "Method solving complex problems by breaking into simpler overlapping subproblems, storing results.",
+        "formula": "Memoization or tabulation; optimal substructure",
+        "keywords": [
+            "dynamic programming",
+            "DP",
+            "memoization",
+            "overlapping subproblems",
+            "optimal"
+        ],
+        "examples": [
+            "Fibonacci: F(n) = F(n-1) + F(n-2)",
+            "Knapsack problem",
+            "Longest common subsequence"
+        ]
+    },
+    {
+        "name": "Greedy Algorithms",
+        "topic": "Algorithms",
+        "definition": "Make locally optimal choice at each step hoping to find global optimum.",
+        "formula": "Choose best option at current stage",
+        "keywords": [
+            "greedy",
+            "local optimum",
+            "heuristic",
+            "optimization"
+        ],
+        "examples": [
+            "Dijkstra's shortest path",
+            "Huffman coding",
+            "Activity selection problem"
+        ]
+    },
+    {
+        "name": "Dijkstra's Shortest Path",
+        "topic": "Algorithms",
+        "definition": "Finds shortest path from source to all vertices in weighted graph with non-negative edges.",
+        "formula": "Greedy approach: O(V²) or O(E log V) with priority queue",
+        "keywords": [
+            "Dijkstra",
+            "shortest path",
+            "graph",
+            "greedy",
+            "priority queue"
+        ],
+        "examples": [
+            "GPS navigation systems",
+            "Network routing protocols",
+            "Cannot handle negative weights"
+        ]
+    },
+    {
+        "name": "Breadth-First Search (BFS)",
+        "topic": "Algorithms",
+        "definition": "Graph traversal visiting all neighbors before moving to next level.",
+        "formula": "Use queue; O(V + E) time complexity",
+        "keywords": [
+            "BFS",
+            "breadth-first",
+            "queue",
+            "level-order",
+            "shortest path"
+        ],
+        "examples": [
+            "Shortest path in unweighted graph",
+            "Level-order tree traversal",
+            "Connected components"
+        ]
+    },
+    {
+        "name": "Depth-First Search (DFS)",
+        "topic": "Algorithms",
+        "definition": "Graph traversal exploring as far as possible along each branch before backtracking.",
+        "formula": "Use stack or recursion; O(V + E)",
+        "keywords": [
+            "DFS",
+            "depth-first",
+            "stack",
+            "recursion",
+            "backtracking"
+        ],
+        "examples": [
+            "Cycle detection",
+            "Topological sorting",
+            "Maze solving"
+        ]
+    },
+    {
+        "name": "Merge Sort",
+        "topic": "Algorithms",
+        "definition": "Divide-and-conquer sorting algorithm that divides array, sorts halves, then merges.",
+        "formula": "T(n) = 2T(n/2) + O(n) → O(n log n)",
+        "keywords": [
+            "merge sort",
+            "divide and conquer",
+            "stable",
+            "comparison"
+        ],
+        "examples": [
+            "Always O(n log n) time",
+            "Stable sort",
+            "Requires O(n) extra space"
+        ]
+    },
+    {
+        "name": "Quick Sort",
+        "topic": "Algorithms",
+        "definition": "Divide-and-conquer sorting using pivot to partition array into smaller and larger elements.",
+        "formula": "Average: O(n log n); Worst: O(n²); In-place",
+        "keywords": [
+            "quick sort",
+            "pivot",
+            "partition",
+            "in-place",
+            "unstable"
+        ],
+        "examples": [
+            "Fast in practice",
+            "Randomized pivot improves performance",
+            "Not stable"
+        ]
+    },
+    {
+        "name": "Hash Tables",
+        "topic": "Data Structures",
+        "definition": "Data structure providing O(1) average-case access using hash function to map keys to indices.",
+        "formula": "hash(key) → index; Handle collisions with chaining or open addressing",
+        "keywords": [
+            "hash table",
+            "hash function",
+            "collision",
+            "O(1)",
+            "dictionary"
+        ],
+        "examples": [
+            "Python dict, Java HashMap",
+            "Chaining: linked lists at each bucket",
+            "Applications: caches, databases, symbol tables"
+        ]
+    },
+    {
+        "name": "Binary Search Trees",
+        "topic": "Data Structures",
+        "definition": "Tree where each node has at most two children; left < parent < right.",
+        "formula": "Search, insert, delete: O(log n) average, O(n) worst",
+        "keywords": [
+            "BST",
+            "binary tree",
+            "ordered",
+            "search tree"
+        ],
+        "examples": [
+            "In-order traversal gives sorted order",
+            "Balanced BST (AVL, Red-Black): O(log n) worst",
+            "Applications: databases, file systems"
+        ]
+    },
+    {
+        "name": "Heaps",
+        "topic": "Data Structures",
+        "definition": "Complete binary tree satisfying heap property: parent ≥ children (max-heap) or parent ≤ children (min-heap).",
+        "formula": "Insert, delete: O(log n); Find min/max: O(1)",
+        "keywords": [
+            "heap",
+            "priority queue",
+            "heapify",
+            "binary heap"
+        ],
+        "examples": [
+            "Min-heap for Dijkstra's algorithm",
+            "Heap sort: O(n log n)",
+            "Priority queues in scheduling"
+        ]
+    },
+    {
+        "name": "Graphs - Representations",
+        "topic": "Data Structures",
+        "definition": "Data structures for representing graphs: adjacency matrix, adjacency list.",
+        "formula": "Matrix: O(V²) space, O(1) edge check; List: O(V+E) space, O(degree) edge check",
+        "keywords": [
+            "graph",
+            "adjacency matrix",
+            "adjacency list",
+            "vertices",
+            "edges"
+        ],
+        "examples": [
+            "Social networks: vertices = people, edges = friendships",
+            "Dense graphs: matrix better",
+            "Sparse graphs: list better"
+        ]
+    },
+    {
+        "name": "Tries (Prefix Trees)",
+        "topic": "Data Structures",
+        "definition": "Tree structure for storing strings where each path represents a word/prefix.",
+        "formula": "Search, insert: O(m) where m is string length",
+        "keywords": [
+            "trie",
+            "prefix tree",
+            "autocomplete",
+            "dictionary"
+        ],
+        "examples": [
+            "Autocomplete systems",
+            "Spell checkers",
+            "IP routing (longest prefix match)"
+        ]
+    },
+    {
+        "name": "Big-O Notation",
+        "topic": "Complexity",
+        "definition": "Asymptotic upper bound on growth rate of function; worst-case complexity.",
+        "formula": "f(n) = O(g(n)) if ∃c, n₀: f(n) ≤ c·g(n) for n ≥ n₀",
+        "keywords": [
+            "Big-O",
+            "complexity",
+            "asymptotic",
+            "upper bound",
+            "worst-case"
+        ],
+        "examples": [
+            "O(1): constant",
+            "O(log n): logarithmic",
+            "O(n): linear",
+            "O(n log n): linearithmic",
+            "O(n²): quadratic"
+        ]
+    },
+    {
+        "name": "Time vs Space Complexity",
+        "topic": "Complexity",
+        "definition": "Time: computational steps; Space: memory used by algorithm.",
+        "formula": "Often trade-off between time and space",
+        "keywords": [
+            "time complexity",
+            "space complexity",
+            "memory",
+            "computational cost"
+        ],
+        "examples": [
+            "Memoization: faster time, more space",
+            "In-place algorithms: less space",
+            "Recursion: implicit space from call stack"
+        ]
+    },
+    {
+        "name": "P vs NP",
+        "topic": "Complexity",
+        "definition": "P: problems solvable in polynomial time; NP: verifiable in polynomial time; P=NP is open question.",
+        "formula": "P ⊆ NP; P = NP?",
+        "keywords": [
+            "P",
+            "NP",
+            "polynomial",
+            "NP-complete",
+            "NP-hard"
+        ],
+        "examples": [
+            "Sorting is in P: O(n log n)",
+            "Traveling Salesman is NP-complete",
+            "SAT, graph coloring are NP-complete"
+        ]
+    },
+    {
+        "name": "NP-Completeness",
+        "topic": "Complexity",
+        "definition": "Hardest problems in NP; if any NP-complete problem has polynomial solution, then P=NP.",
+        "formula": "Problem is NP-complete if: (1) in NP, (2) all NP problems reduce to it",
+        "keywords": [
+            "NP-complete",
+            "reduction",
+            "SAT",
+            "hardest",
+            "polynomial reduction"
+        ],
+        "examples": [
+            "3-SAT (Boolean satisfiability)",
+            "Hamiltonian cycle",
+            "Vertex cover, clique"
+        ]
+    },
+    {
+        "name": "Amortized Analysis",
+        "topic": "Complexity",
+        "definition": "Average performance over sequence of operations, accounting for expensive operations spread over many cheap ones.",
+        "formula": "Total cost / number of operations",
+        "keywords": [
+            "amortized",
+            "average",
+            "aggregate",
+            "accounting method"
+        ],
+        "examples": [
+            "Dynamic array: amortized O(1) insertion",
+            "Fibonacci heap operations",
+            "Union-find with path compression"
+        ]
+    },
+    {
+        "name": "Recursion and Recurrence Relations",
+        "topic": "Algorithms",
+        "definition": "Function calling itself; complexity expressed as recurrence relation.",
+        "formula": "Master theorem: T(n) = aT(n/b) + f(n)",
+        "keywords": [
+            "recursion",
+            "recurrence",
+            "base case",
+            "recursive case",
+            "master theorem"
+        ],
+        "examples": [
+            "Factorial: T(n) = T(n-1) + O(1) → O(n)",
+            "Binary search: T(n) = T(n/2) + O(1) → O(log n)",
+            "Merge sort: T(n) = 2T(n/2) + O(n) → O(n log n)"
+        ]
+    }
+]

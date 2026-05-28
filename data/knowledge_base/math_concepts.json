@@ -1,0 +1,600 @@
+[
+    {
+        "name": "Derivative",
+        "topic": "Calculus",
+        "definition": "The rate of change of a function with respect to a variable.",
+        "formula": "f'(x) = limit(h->0) [f(x+h) - f(x)]/h",
+        "keywords": [
+            "rate of change",
+            "slope",
+            "tangent",
+            "differentiate",
+            "d/dx"
+        ],
+        "examples": [
+            "d/dx(x^2) = 2x",
+            "d/dx(sin(x)) = cos(x)"
+        ]
+    },
+    {
+        "name": "Integral",
+        "topic": "Calculus",
+        "definition": "The accumulation of quantities; the area under a curve.",
+        "formula": "∫f(x)dx = F(x) + C",
+        "keywords": [
+            "area under",
+            "accumulation",
+            "antiderivative",
+            "integrate"
+        ],
+        "examples": [
+            "∫x dx = x^2/2 + C",
+            "∫cos(x) dx = sin(x) + C"
+        ]
+    },
+    {
+        "name": "Quadratic Equation",
+        "topic": "Algebra",
+        "definition": "A polynomial equation of degree 2.",
+        "formula": "ax^2 + bx + c = 0; Solutions: x = (-b ± √(b^2-4ac))/(2a)",
+        "keywords": [
+            "quadratic",
+            "parabola",
+            "roots",
+            "discriminant"
+        ],
+        "examples": [
+            "x^2 - 4 = 0 -> x = ±2",
+            "x^2 + 5x + 6 = 0 -> x = -2 or x = -3"
+        ]
+    },
+    {
+        "name": "Linear Equations",
+        "topic": "Algebra",
+        "definition": "An equation of degree 1 that forms a straight line when graphed.",
+        "formula": "y = mx + b, where m is slope and b is y-intercept",
+        "keywords": [
+            "linear",
+            "slope",
+            "intercept",
+            "straight line",
+            "first degree"
+        ],
+        "examples": [
+            "y = 2x + 3 has slope 2 and y-intercept 3",
+            "3x + 4y = 12 can be rewritten as y = -3x/4 + 3"
+        ]
+    },
+    {
+        "name": "Systems of Linear Equations",
+        "topic": "Algebra",
+        "definition": "A set of two or more linear equations with the same variables.",
+        "formula": "Can be solved using substitution, elimination, or matrix methods",
+        "keywords": [
+            "system",
+            "simultaneous",
+            "elimination",
+            "substitution",
+            "matrix"
+        ],
+        "examples": [
+            "x + y = 5 and x - y = 1 -> x = 3, y = 2",
+            "2x + 3y = 7 and x - y = 1 -> x = 2, y = 1"
+        ]
+    },
+    {
+        "name": "Polynomial Functions",
+        "topic": "Algebra",
+        "definition": "A function consisting of variables and coefficients with non-negative integer exponents.",
+        "formula": "P(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_1*x + a_0",
+        "keywords": [
+            "polynomial",
+            "degree",
+            "coefficient",
+            "roots",
+            "factoring"
+        ],
+        "examples": [
+            "P(x) = x^3 - 2x^2 + x - 5 is degree 3",
+            "P(x) = (x-1)(x+2)(x-3) has roots at 1, -2, 3"
+        ]
+    },
+    {
+        "name": "Rational Functions",
+        "topic": "Algebra",
+        "definition": "A function that is the ratio of two polynomials.",
+        "formula": "f(x) = P(x)/Q(x), where P and Q are polynomials and Q(x) ≠ 0",
+        "keywords": [
+            "rational",
+            "fraction",
+            "asymptote",
+            "discontinuity",
+            "domain"
+        ],
+        "examples": [
+            "f(x) = (x+1)/(x-2) has vertical asymptote at x=2",
+            "f(x) = (x^2-1)/(x+1) = x-1 for x ≠ -1"
+        ]
+    },
+    {
+        "name": "Exponential Functions",
+        "topic": "Algebra",
+        "definition": "A function where the variable appears in the exponent.",
+        "formula": "f(x) = a*b^x or f(x) = a*e^(kx), where e ≈ 2.718",
+        "keywords": [
+            "exponential",
+            "growth",
+            "decay",
+            "base",
+            "e"
+        ],
+        "examples": [
+            "f(x) = 2^x doubles for each unit increase in x",
+            "Population growth: P(t) = P_0*e^(rt)"
+        ]
+    },
+    {
+        "name": "Logarithmic Functions",
+        "topic": "Algebra",
+        "definition": "The inverse of exponential functions; the exponent to which a base must be raised to get a number.",
+        "formula": "y = log_b(x) means b^y = x; ln(x) = log_e(x)",
+        "keywords": [
+            "logarithm",
+            "log",
+            "ln",
+            "natural log",
+            "inverse exponential"
+        ],
+        "examples": [
+            "log_2(8) = 3 because 2^3 = 8",
+            "ln(e^5) = 5",
+            "log(100) = 2 in base 10"
+        ]
+    },
+    {
+        "name": "Absolute Value Equations",
+        "topic": "Algebra",
+        "definition": "Equations involving the absolute value (distance from zero) of an expression.",
+        "formula": "|x| = a means x = a or x = -a (for a ≥ 0)",
+        "keywords": [
+            "absolute value",
+            "distance",
+            "magnitude",
+            "piecewise"
+        ],
+        "examples": [
+            "|x| = 5 -> x = 5 or x = -5",
+            "|2x - 3| = 7 -> x = 5 or x = -2"
+        ]
+    },
+    {
+        "name": "Complex Numbers",
+        "topic": "Algebra",
+        "definition": "Numbers of the form a + bi where i is the imaginary unit (i^2 = -1).",
+        "formula": "z = a + bi; |z| = √(a^2 + b^2); z* = a - bi (conjugate)",
+        "keywords": [
+            "complex",
+            "imaginary",
+            "real part",
+            "imaginary part",
+            "conjugate"
+        ],
+        "examples": [
+            "3 + 4i has magnitude 5",
+            "(2+i)(3-i) = 7 + i",
+            "i^2 = -1, i^4 = 1"
+        ]
+    },
+    {
+        "name": "Sequences and Series",
+        "topic": "Algebra",
+        "definition": "A sequence is an ordered list of numbers; a series is the sum of sequence terms.",
+        "formula": "Arithmetic: a_n = a_1 + (n-1)d; Geometric: a_n = a_1*r^(n-1)",
+        "keywords": [
+            "sequence",
+            "series",
+            "arithmetic",
+            "geometric",
+            "sum"
+        ],
+        "examples": [
+            "Arithmetic: 2, 5, 8, 11, ... (d=3)",
+            "Geometric: 3, 6, 12, 24, ... (r=2)",
+            "Sum of first n integers: n(n+1)/2"
+        ]
+    },
+    {
+        "name": "Matrix Operations",
+        "topic": "Algebra",
+        "definition": "Mathematical operations on rectangular arrays of numbers.",
+        "formula": "Addition: [A]_{ij} + [B]_{ij}; Multiplication: [AB]_{ij} = Σ A_{ik}*B_{kj}",
+        "keywords": [
+            "matrix",
+            "determinant",
+            "inverse",
+            "multiplication",
+            "linear transformation"
+        ],
+        "examples": [
+            "[1 2; 3 4] + [5 6; 7 8] = [6 8; 10 12]",
+            "det([a b; c d]) = ad - bc"
+        ]
+    },
+    {
+        "name": "Pythagorean Theorem",
+        "topic": "Geometry",
+        "definition": "In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides.",
+        "formula": "a^2 + b^2 = c^2, where c is the hypotenuse",
+        "keywords": [
+            "right triangle",
+            "hypotenuse",
+            "pythagoras",
+            "distance"
+        ],
+        "examples": [
+            "If a=3 and b=4, then c=5",
+            "Distance between (0,0) and (3,4) is 5"
+        ]
+    },
+    {
+        "name": "Triangle Congruence and Similarity",
+        "topic": "Geometry",
+        "definition": "Triangles are congruent if all sides and angles match; similar if corresponding angles are equal.",
+        "formula": "Congruence: SSS, SAS, ASA, AAS; Similarity: AA, SAS, SSS",
+        "keywords": [
+            "congruent",
+            "similar",
+            "corresponding angles",
+            "proportional sides"
+        ],
+        "examples": [
+            "Two triangles with sides 3-4-5 and 6-8-10 are similar (ratio 1:2)",
+            "SSS: If all three sides match, triangles are congruent"
+        ]
+    },
+    {
+        "name": "Circle Properties",
+        "topic": "Geometry",
+        "definition": "A circle is the set of all points equidistant from a center point.",
+        "formula": "Area = πr^2; Circumference = 2πr; Equation: (x-h)^2 + (y-k)^2 = r^2",
+        "keywords": [
+            "circle",
+            "radius",
+            "diameter",
+            "circumference",
+            "pi"
+        ],
+        "examples": [
+            "Circle with radius 5 has area 25π",
+            "(x-2)^2 + (y+3)^2 = 16 is circle centered at (2,-3) with r=4"
+        ]
+    },
+    {
+        "name": "Area and Volume Formulas",
+        "topic": "Geometry",
+        "definition": "Formulas for calculating the area of 2D shapes and volume of 3D solids.",
+        "formula": "Rectangle: A=lw; Triangle: A=½bh; Sphere: V=4πr^3/3; Cylinder: V=πr^2h",
+        "keywords": [
+            "area",
+            "volume",
+            "surface area",
+            "perimeter",
+            "dimensions"
+        ],
+        "examples": [
+            "Rectangle 5×3 has area 15",
+            "Sphere radius 3 has volume 36π",
+            "Cylinder r=2, h=5 has volume 20π"
+        ]
+    },
+    {
+        "name": "Coordinate Geometry",
+        "topic": "Geometry",
+        "definition": "Geometry using a coordinate system to represent geometric figures algebraically.",
+        "formula": "Distance: d=√[(x2-x1)^2+(y2-y1)^2]; Midpoint: ((x1+x2)/2, (y1+y2)/2)",
+        "keywords": [
+            "coordinates",
+            "distance formula",
+            "midpoint",
+            "slope",
+            "cartesian"
+        ],
+        "examples": [
+            "Distance from (1,2) to (4,6) is 5",
+            "Midpoint of (0,0) and (6,8) is (3,4)"
+        ]
+    },
+    {
+        "name": "Trigonometric Ratios",
+        "topic": "Trigonometry",
+        "definition": "Ratios of sides in a right triangle relative to an angle.",
+        "formula": "sin(θ) = opposite/hypotenuse; cos(θ) = adjacent/hypotenuse; tan(θ) = opposite/adjacent",
+        "keywords": [
+            "sine",
+            "cosine",
+            "tangent",
+            "SOH-CAH-TOA",
+            "right triangle"
+        ],
+        "examples": [
+            "In 3-4-5 triangle: sin(θ) = 3/5 for angle opposite to 3",
+            "tan(45°) = 1; sin(30°) = 1/2"
+        ]
+    },
+    {
+        "name": "Unit Circle",
+        "topic": "Trigonometry",
+        "definition": "A circle with radius 1 centered at the origin, used to define trigonometric functions.",
+        "formula": "x = cos(θ), y = sin(θ); x^2 + y^2 = 1",
+        "keywords": [
+            "unit circle",
+            "radians",
+            "degrees",
+            "periodic",
+            "reference angles"
+        ],
+        "examples": [
+            "At θ=π/4 (45°): cos=sin=√2/2",
+            "At θ=π/2 (90°): cos=0, sin=1",
+            "360° = 2π radians"
+        ]
+    },
+    {
+        "name": "Trigonometric Identities",
+        "topic": "Trigonometry",
+        "definition": "Equations involving trigonometric functions that are true for all values of the variables.",
+        "formula": "sin^2(θ)+cos^2(θ)=1; tan(θ)=sin(θ)/cos(θ); sin(2θ)=2sin(θ)cos(θ)",
+        "keywords": [
+            "identity",
+            "pythagorean",
+            "double angle",
+            "sum formula",
+            "simplify"
+        ],
+        "examples": [
+            "1 + tan^2(θ) = sec^2(θ)",
+            "cos(2θ) = cos^2(θ) - sin^2(θ)",
+            "sin(A+B) = sin(A)cos(B) + cos(A)sin(B)"
+        ]
+    },
+    {
+        "name": "Law of Sines and Cosines",
+        "topic": "Trigonometry",
+        "definition": "Formulas relating sides and angles in any triangle (not just right triangles).",
+        "formula": "Law of Sines: a/sin(A) = b/sin(B) = c/sin(C); Law of Cosines: c^2 = a^2 + b^2 - 2ab*cos(C)",
+        "keywords": [
+            "law of sines",
+            "law of cosines",
+            "oblique triangle",
+            "solve triangle"
+        ],
+        "examples": [
+            "In triangle with a=7, b=9, C=60°: c^2 = 49 + 81 - 2(7)(9)cos(60°) = 67",
+            "If a=10, A=30°, B=45°: b = 10*sin(45°)/sin(30°) = 14.14"
+        ]
+    },
+    {
+        "name": "Inverse Trigonometric Functions",
+        "topic": "Trigonometry",
+        "definition": "Functions that return the angle given a trigonometric ratio.",
+        "formula": "arcsin(x), arccos(x), arctan(x); Domain restrictions apply",
+        "keywords": [
+            "inverse",
+            "arcsin",
+            "arccos",
+            "arctan",
+            "angle"
+        ],
+        "examples": [
+            "arcsin(1/2) = 30° = π/6",
+            "arccos(0) = 90° = π/2",
+            "arctan(1) = 45° = π/4"
+        ]
+    },
+    {
+        "name": "Limits and Continuity",
+        "topic": "Calculus",
+        "definition": "The limit describes the behavior of a function as input approaches a value; continuity means no breaks or jumps.",
+        "formula": "lim(x→a) f(x) = L; f is continuous at a if lim(x→a) f(x) = f(a)",
+        "keywords": [
+            "limit",
+            "continuity",
+            "approach",
+            "epsilon-delta",
+            "discontinuity"
+        ],
+        "examples": [
+            "lim(x→0) sin(x)/x = 1",
+            "lim(x→∞) 1/x = 0",
+            "f(x) = 1/x is discontinuous at x=0"
+        ]
+    },
+    {
+        "name": "Chain Rule",
+        "topic": "Calculus",
+        "definition": "A method for differentiating composite functions.",
+        "formula": "d/dx[f(g(x))] = f'(g(x)) × g'(x)",
+        "keywords": [
+            "chain rule",
+            "composite",
+            "derivative",
+            "composition"
+        ],
+        "examples": [
+            "d/dx[sin(x^2)] = cos(x^2) × 2x = 2x*cos(x^2)",
+            "d/dx[(3x+1)^5] = 5(3x+1)^4 × 3 = 15(3x+1)^4"
+        ]
+    },
+    {
+        "name": "Implicit Differentiation",
+        "topic": "Calculus",
+        "definition": "Finding derivatives of equations not explicitly solved for one variable.",
+        "formula": "Differentiate both sides with respect to x, treating y as a function of x; solve for dy/dx",
+        "keywords": [
+            "implicit",
+            "differentiation",
+            "dy/dx",
+            "related rates"
+        ],
+        "examples": [
+            "For x^2 + y^2 = 25: 2x + 2y(dy/dx) = 0, so dy/dx = -x/y",
+            "For xy = 1: y + x(dy/dx) = 0, so dy/dx = -y/x"
+        ]
+    },
+    {
+        "name": "Integration by Parts",
+        "topic": "Calculus",
+        "definition": "An integration technique based on the product rule for differentiation.",
+        "formula": "∫u dv = uv - ∫v du",
+        "keywords": [
+            "integration by parts",
+            "product rule",
+            "u-substitution",
+            "antiderivative"
+        ],
+        "examples": [
+            "∫x*e^x dx: Let u=x, dv=e^x dx → x*e^x - ∫e^x dx = x*e^x - e^x + C",
+            "∫x*cos(x) dx = x*sin(x) + cos(x) + C"
+        ]
+    },
+    {
+        "name": "Definite Integrals",
+        "topic": "Calculus",
+        "definition": "The integral over a specific interval, representing net area under a curve.",
+        "formula": "∫[a to b] f(x)dx = F(b) - F(a), where F'(x) = f(x)",
+        "keywords": [
+            "definite integral",
+            "fundamental theorem",
+            "area",
+            "bounds",
+            "evaluation"
+        ],
+        "examples": [
+            "∫[0 to 1] x^2 dx = [x^3/3] from 0 to 1 = 1/3",
+            "∫[0 to π] sin(x) dx = [-cos(x)] from 0 to π = 2"
+        ]
+    },
+    {
+        "name": "Series Convergence Tests",
+        "topic": "Calculus",
+        "definition": "Methods to determine if an infinite series converges to a finite value.",
+        "formula": "Ratio test, comparison test, integral test, alternating series test",
+        "keywords": [
+            "series",
+            "convergence",
+            "divergence",
+            "ratio test",
+            "sum"
+        ],
+        "examples": [
+            "Geometric series Σar^n converges if |r| < 1",
+            "Σ1/n diverges (harmonic series)",
+            "Σ1/n^2 converges to π^2/6"
+        ]
+    },
+    {
+        "name": "Partial Derivatives",
+        "topic": "Calculus",
+        "definition": "Derivatives of multivariable functions with respect to one variable, treating others as constants.",
+        "formula": "∂f/∂x, ∂f/∂y for function f(x,y)",
+        "keywords": [
+            "partial derivative",
+            "multivariable",
+            "gradient",
+            "del operator"
+        ],
+        "examples": [
+            "For f(x,y) = x^2y + y^3: ∂f/∂x = 2xy, ∂f/∂y = x^2 + 3y^2",
+            "For f(x,y,z) = xyz: ∂f/∂x = yz"
+        ]
+    },
+    {
+        "name": "Mean, Median, Mode",
+        "topic": "Statistics",
+        "definition": "Measures of central tendency in a data set.",
+        "formula": "Mean = Σx_i/n; Median = middle value; Mode = most frequent value",
+        "keywords": [
+            "mean",
+            "median",
+            "mode",
+            "average",
+            "central tendency"
+        ],
+        "examples": [
+            "For {1,2,3,4,5}: mean=3, median=3",
+            "For {1,2,2,3,4}: mode=2",
+            "For {1,2,100}: median=2 (less affected by outliers than mean=34.3)"
+        ]
+    },
+    {
+        "name": "Variance and Standard Deviation",
+        "topic": "Statistics",
+        "definition": "Measures of spread or dispersion in a data set.",
+        "formula": "Variance σ^2 = Σ(x_i - μ)^2/n; Standard Deviation σ = √(variance)",
+        "keywords": [
+            "variance",
+            "standard deviation",
+            "spread",
+            "dispersion",
+            "variability"
+        ],
+        "examples": [
+            "For {2,4,6}: mean=4, variance=8/3, σ≈1.63",
+            "Larger σ means more spread out data"
+        ]
+    },
+    {
+        "name": "Probability Distributions",
+        "topic": "Statistics",
+        "definition": "Functions that describe the likelihood of different outcomes in a random process.",
+        "formula": "Σ P(x_i) = 1 for discrete; ∫P(x)dx = 1 for continuous",
+        "keywords": [
+            "probability",
+            "distribution",
+            "random variable",
+            "discrete",
+            "continuous"
+        ],
+        "examples": [
+            "Fair die: P(x) = 1/6 for x ∈ {1,2,3,4,5,6}",
+            "Binomial distribution: P(k successes in n trials)",
+            "Expected value E[X] = Σ x_i*P(x_i)"
+        ]
+    },
+    {
+        "name": "Normal Distribution",
+        "topic": "Statistics",
+        "definition": "A bell-shaped probability distribution characterized by mean μ and standard deviation σ.",
+        "formula": "f(x) = (1/σ√(2π)) × e^(-(x-μ)^2/(2σ^2))",
+        "keywords": [
+            "normal",
+            "gaussian",
+            "bell curve",
+            "68-95-99.7 rule",
+            "z-score"
+        ],
+        "examples": [
+            "68% of data within 1σ of mean",
+            "95% within 2σ, 99.7% within 3σ",
+            "z-score: z = (x-μ)/σ"
+        ]
+    },
+    {
+        "name": "Hypothesis Testing",
+        "topic": "Statistics",
+        "definition": "A statistical method for making decisions about population parameters based on sample data.",
+        "formula": "Null hypothesis H_0, alternative H_a; p-value, significance level α",
+        "keywords": [
+            "hypothesis",
+            "p-value",
+            "significance",
+            "null hypothesis",
+            "t-test"
+        ],
+        "examples": [
+            "If p-value < 0.05, reject H_0 at 5% significance",
+            "Type I error: rejecting true H_0",
+            "Type II error: failing to reject false H_0"
+        ]
+    }
+]

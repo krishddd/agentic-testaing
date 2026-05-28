@@ -1,0 +1,906 @@
+[
+    {
+        "name": "Schrödinger Equation - Time-Dependent",
+        "topic": "Quantum Mechanics",
+        "definition": "Fundamental equation of quantum mechanics describing how quantum state evolves over time.",
+        "formula": "iℏ∂ψ/∂t = Ĥψ where Ĥ is Hamiltonian operator",
+        "keywords": [
+            "Schrödinger",
+            "quantum",
+            "wave function",
+            "Hamiltonian",
+            "time evolution"
+        ],
+        "examples": [
+            "Free particle: Ĥ = -ℏ²/(2m)∇²",
+            "Harmonic oscillator: Ĥ = -ℏ²/(2m)d²/dx² + ½mω²x²",
+            "Hydrogen atom: includes Coulomb potential"
+        ]
+    },
+    {
+        "name": "Schrödinger Equation - Time-Independent",
+        "topic": "Quantum Mechanics",
+        "definition": "Eigenvalue equation for stationary states with definite energy.",
+        "formula": "Ĥψ = Eψ where E is energy eigenvalue",
+        "keywords": [
+            "stationary state",
+            "eigensolution",
+            "energy levels",
+            "bound states"
+        ],
+        "examples": [
+            "Particle in a box: Eₙ = n²π²ℏ²/(2mL²)",
+            "Harmonic oscillator: Eₙ = (n + ½)ℏω",
+            "Hydrogen: Eₙ = -13.6 eV/n²"
+        ]
+    },
+    {
+        "name": "Quantum Operators",
+        "topic": "Quantum Mechanics",
+        "definition": "Mathematical operators representing physical observables in quantum mechanics.",
+        "formula": "Position: x̂; Momentum: p̂ = -iℏ∂/∂x; Energy: Ĥ",
+        "keywords": [
+            "operator",
+            "observable",
+            "commutator",
+            "Hermitian",
+            "eigenvalue"
+        ],
+        "examples": [
+            "Commutator: [x̂,p̂] = iℏ (uncertainty principle)",
+            "Angular momentum: L̂ = r̂ × p̂",
+            "Measurement yields eigenvalue of operator"
+        ]
+    },
+    {
+        "name": "Quantum Harmonic Oscillator",
+        "topic": "Quantum Mechanics",
+        "definition": "Quantum system with parabolic potential, exactly solvable with discrete energy levels.",
+        "formula": "V(x) = ½mω²x²; Eₙ = ℏω(n + ½)",
+        "keywords": [
+            "harmonic oscillator",
+            "ladder operators",
+            "phonons",
+            "ground state"
+        ],
+        "examples": [
+            "Zero-point energy: E₀ = ½ℏω",
+            "Creation/annihilation operators: â†, â",
+            "Models molecular vibrations"
+        ]
+    },
+    {
+        "name": "Quantum Tunneling",
+        "topic": "Quantum Mechanics",
+        "definition": "Quantum phenomenon where particles penetrate through potential barriers classically forbidden.",
+        "formula": "Transmission coefficient T ≈ exp(-2κa) where κ = √(2m(V-E))/ℏ",
+        "keywords": [
+            "tunneling",
+            "barrier penetration",
+            "STM",
+            "alpha decay"
+        ],
+        "examples": [
+            "Scanning Tunneling Microscope (STM)",
+            "Alpha decay of radioactive nuclei",
+            "Tunnel diodes in electronics"
+        ]
+    },
+    {
+        "name": "Hydrogen Atom",
+        "topic": "Quantum Mechanics",
+        "definition": "Exactly solvable quantum system of electron in Coulomb potential of proton.",
+        "formula": "Eₙ = -13.6 eV/n²; ψₙₗₘ described by quantum numbers n,l,m",
+        "keywords": [
+            "hydrogen",
+            "Bohr radius",
+            "quantum numbers",
+            "orbitals",
+            "spectral lines"
+        ],
+        "examples": [
+            "Ground state: n=1, l=0, E=-13.6 eV",
+            "Bohr radius: a₀ = 0.529 Å",
+            "Balmer series: transitions to n=2"
+        ]
+    },
+    {
+        "name": "Spin and Pauli Matrices",
+        "topic": "Quantum Mechanics",
+        "definition": "Intrinsic angular momentum of particles; Pauli matrices represent spin-1/2 operators.",
+        "formula": "Ŝ = (ℏ/2)σ where σ are Pauli matrices; [Sᵢ,Sⱼ] = iℏεᵢⱼₖSₖ",
+        "keywords": [
+            "spin",
+            "Pauli matrices",
+            "angular momentum",
+            "fermion",
+            "boson"
+        ],
+        "examples": [
+            "Electron spin: s = 1/2, mₛ = ±½",
+            "Stern-Gerlach experiment",
+            "Spin-orbit coupling"
+        ]
+    },
+    {
+        "name": "Quantum Entanglement",
+        "topic": "Quantum Mechanics",
+        "definition": "Quantum state of multiple particles that cannot be described independently; correlations persist at distance.",
+        "formula": "Bell state: |Ψ⁺⟩ = (|↑↓⟩ + |↓↑⟩)/√2",
+        "keywords": [
+            "entanglement",
+            "Bell states",
+            "EPR paradox",
+            "nonlocality",
+            "quantum information"
+        ],
+        "examples": [
+            "EPR pairs in quantum cryptography",
+            "Bell inequality violations",
+            "Quantum teleportation protocol"
+        ]
+    },
+    {
+        "name": "Uncertainty Principle",
+        "topic": "Quantum Mechanics",
+        "definition": "Fundamental limit on precision of simultaneous measurements of conjugate variables.",
+        "formula": "ΔxΔp ≥ ℏ/2; ΔEΔt ≥ ℏ/2",
+        "keywords": [
+            "uncertainty",
+            "Heisenberg",
+            "measurement",
+            "indeterminacy"
+        ],
+        "examples": [
+            "Cannot know exact position and momentum simultaneously",
+            "Energy-time uncertainty in virtual particles",
+            "Wave-particle duality manifestation"
+        ]
+    },
+    {
+        "name": "Quantum States and Wavefunctions",
+        "topic": "Quantum Mechanics",
+        "definition": "Mathematical description of quantum system; |ψ⟩ in Hilbert space, ψ(x,t) in position representation.",
+        "formula": "⟨ψ|ψ⟩ = 1 (normalization); P(x) = |ψ(x)|² (probability density)",
+        "keywords": [
+            "wavefunction",
+            "state vector",
+            "Hilbert space",
+            "superposition",
+            "collapse"
+        ],
+        "examples": [
+            "Superposition: |ψ⟩ = α|0⟩ + β|1⟩",
+            "Measurement collapses state",
+            "Born rule: probability from |ψ|²"
+        ]
+    },
+    {
+        "name": "Boltzmann Distribution",
+        "topic": "Statistical Mechanics",
+        "definition": "Probability distribution of particles over energy states in thermal equilibrium.",
+        "formula": "P(E) = (1/Z)exp(-E/kT) where Z is partition function",
+        "keywords": [
+            "Boltzmann",
+            "thermal equilibrium",
+            "canonical ensemble",
+            "temperature"
+        ],
+        "examples": [
+            "Maxwell-Boltzmann speed distribution",
+            "Barometric formula for atmosphere",
+            "Chemical reaction rates"
+        ]
+    },
+    {
+        "name": "Partition Function",
+        "topic": "Statistical Mechanics",
+        "definition": "Sum over all states weighted by Boltzmann factor; encodes thermodynamic information.",
+        "formula": "Z = Σᵢexp(-Eᵢ/kT); F = -kT ln(Z) (Helmholtz free energy)",
+        "keywords": [
+            "partition function",
+            "free energy",
+            "statistical sum",
+            "canonical"
+        ],
+        "examples": [
+            "Harmonic oscillator: Z = exp(-ℏω/2kT)/[1-exp(-ℏω/kT)]",
+            "All thermodynamic quantities derivable from Z",
+            "Grand canonical: includes chemical potential"
+        ]
+    },
+    {
+        "name": "Entropy and Microstates",
+        "topic": "Statistical Mechanics",
+        "definition": "Entropy measures disorder; related to number of accessible microstates.",
+        "formula": "S = k ln(Ω) where Ω is number of microstates",
+        "keywords": [
+            "entropy",
+            "microstates",
+            "disorder",
+            "Boltzmann constant",
+            "information"
+        ],
+        "examples": [
+            "Ideal gas: S = Nk[ln(V) + (3/2)ln(T)] + const",
+            "Increase in entropy: second law",
+            "Shannon entropy in information theory"
+        ]
+    },
+    {
+        "name": "Phase Transitions",
+        "topic": "Statistical Mechanics",
+        "definition": "Abrupt changes in physical properties as external parameter (like temperature) varies.",
+        "formula": "First order: discontinuous order parameter; Second order: continuous, diverging susceptibility",
+        "keywords": [
+            "phase transition",
+            "critical point",
+            "order parameter",
+            "Ising model"
+        ],
+        "examples": [
+            "Water-ice transition (first order)",
+            "Ferromagnetic transition (second order)",
+            "Critical exponents near Tc"
+        ]
+    },
+    {
+        "name": "Fermi-Dirac and Bose-Einstein Statistics",
+        "topic": "Statistical Mechanics",
+        "definition": "Quantum statistics for indistinguishable particles; fermions obey Pauli exclusion, bosons don't.",
+        "formula": "FD: n(E) = 1/[exp((E-μ)/kT) + 1]; BE: n(E) = 1/[exp((E-μ)/kT) - 1]",
+        "keywords": [
+            "fermion",
+            "boson",
+            "Fermi-Dirac",
+            "Bose-Einstein",
+            "quantum statistics"
+        ],
+        "examples": [
+            "Electron gas in metals (FD)",
+            "Photon gas, blackbody radiation (BE)",
+            "Bose-Einstein condensation at low T"
+        ]
+    },
+    {
+        "name": "Maxwell's Equations - Differential Form",
+        "topic": "Electrodynamics",
+        "definition": "Four fundamental equations unifying electricity and magnetism in local form.",
+        "formula": "∇·E = ρ/ε₀; ∇·B = 0; ∇×E = -∂B/∂t; ∇×B = μ₀J + μ₀ε₀∂E/∂t",
+        "keywords": [
+            "Maxwell",
+            "electromagnetic",
+            "Gauss",
+            "Faraday",
+            "Ampere-Maxwell"
+        ],
+        "examples": [
+            "Gauss: electric charges create diverging E",
+            "No magnetic monopoles: ∇·B = 0",
+            "Faraday: changing B induces E"
+        ]
+    },
+    {
+        "name": "Electromagnetic Waves",
+        "topic": "Electrodynamics",
+        "definition": "Self-propagating oscillations of E and B fields traveling at speed of light.",
+        "formula": "Wave equation: ∇²E = μ₀ε₀∂²E/∂t²; c = 1/√(μ₀ε₀) = 3×10⁸ m/s",
+        "keywords": [
+            "EM wave",
+            "light",
+            "polarization",
+            "plane wave",
+            "frequency"
+        ],
+        "examples": [
+            "Plane wave: E = E₀cos(kx - ωt)",
+            "E ⊥ B ⊥ direction of propagation",
+            "Radio, microwaves, visible, X-rays, gamma rays"
+        ]
+    },
+    {
+        "name": "Poynting Vector and EM Energy",
+        "topic": "Electrodynamics",
+        "definition": "Energy flux density of electromagnetic field.",
+        "formula": "S = (1/μ₀)E×B; Energy density: u = ½(ε₀E² + B²/μ₀)",
+        "keywords": [
+            "Poynting vector",
+            "energy flux",
+            "intensity",
+            "radiation"
+        ],
+        "examples": [
+            "Intensity of light: I = |S|",
+            "Energy conservation in EM fields",
+            "Radiation pressure from light"
+        ]
+    },
+    {
+        "name": "Electromagnetic Potentials",
+        "topic": "Electrodynamics",
+        "definition": "Scalar and vector potentials from which E and B fields are derived.",
+        "formula": "E = -∇φ - ∂A/∂t; B = ∇×A",
+        "keywords": [
+            "potential",
+            "gauge",
+            "vector potential",
+            "scalar potential",
+            "gauge invariance"
+        ],
+        "examples": [
+            "Coulomb gauge: ∇·A = 0",
+            "Lorenz gauge: ∇·A + μ₀ε₀∂φ/∂t = 0",
+            "Aharonov-Bohm effect"
+        ]
+    },
+    {
+        "name": "Radiation from Accelerating Charges",
+        "topic": "Electrodynamics",
+        "definition": "Accelerating charges emit electromagnetic radiation.",
+        "formula": "Larmor formula: P = (q²a²)/(6πε₀c³) for nonrelativistic",
+        "keywords": [
+            "radiation",
+            "Larmor",
+            "dipole",
+            "antenna",
+            "synchrotron"
+        ],
+        "examples": [
+            "Radio antenna radiation",
+            "Synchrotron radiation from accelerators",
+            "Bremsstrahlung (braking radiation)"
+        ]
+    },
+    {
+        "name": "Waveguides and Cavities",
+        "topic": "Electrodynamics",
+        "definition": "Structures that guide or confine electromagnetic waves.",
+        "formula": "Cutoff frequency: fc = c/(2a) for rectangular waveguide width a",
+        "keywords": [
+            "waveguide",
+            "cavity resonator",
+            "mode",
+            "cutoff",
+            "propagation"
+        ],
+        "examples": [
+            "Rectangular waveguide for microwaves",
+            "Optical fiber (cylindrical waveguide)",
+            "Resonant cavities in lasers"
+        ]
+    },
+    {
+        "name": "Fluid Continuity Equation",
+        "topic": "Fluid Dynamics",
+        "definition": "Conservation of mass in fluid flow.",
+        "formula": "∂ρ/∂t + ∇·(ρv) = 0; Incompressible: ∇·v = 0",
+        "keywords": [
+            "continuity",
+            "conservation of mass",
+            "incompressible",
+            "flow"
+        ],
+        "examples": [
+            "Pipe flow: A₁v₁ = A₂v₂",
+            "Incompressible fluids: ∇·v = 0",
+            "Mass flux conservation"
+        ]
+    },
+    {
+        "name": "Navier-Stokes Equations",
+        "topic": "Fluid Dynamics",
+        "definition": "Fundamental equations governing fluid motion, expressing Newton's second law for fluids.",
+        "formula": "ρ(∂v/∂t + v·∇v) = -∇p + μ∇²v + f",
+        "keywords": [
+            "Navier-Stokes",
+            "viscosity",
+            "pressure",
+            "turbulence",
+            "Reynolds number"
+        ],
+        "examples": [
+            "Describes weather, ocean currents, aircraft flow",
+            "Reynolds number: Re = ρvL/μ",
+            "Turbulent flow when Re is large"
+        ]
+    },
+    {
+        "name": "Bernoulli's Equation",
+        "topic": "Fluid Dynamics",
+        "definition": "Energy conservation for ideal fluid flow along streamline.",
+        "formula": "p + ½ρv² + ρgh = constant",
+        "keywords": [
+            "Bernoulli",
+            "pressure",
+            "velocity",
+            "ideal fluid",
+            "streamline"
+        ],
+        "examples": [
+            "Venturi effect: faster flow → lower pressure",
+            "Airplane wing lift",
+            "Pitot tube for airspeed measurement"
+        ]
+    },
+    {
+        "name": "Reynolds Number",
+        "topic": "Fluid Dynamics",
+        "definition": "Dimensionless number characterizing ratio of inertial to viscous forces.",
+        "formula": "Re = ρvL/μ = vL/ν where ν is kinematic viscosity",
+        "keywords": [
+            "Reynolds",
+            "turbulence",
+            "laminar",
+            "dimensionless",
+            "similarity"
+        ],
+        "examples": [
+            "Re < 2300: laminar pipe flow",
+            "Re > 4000: turbulent flow",
+            "Determines flow regime"
+        ]
+    },
+    {
+        "name": "Boundary Layers",
+        "topic": "Fluid Dynamics",
+        "definition": "Thin region near solid surface where viscous effects are significant.",
+        "formula": "Boundary layer thickness δ ∝ √(νx/U)",
+        "keywords": [
+            "boundary layer",
+            "viscosity",
+            "drag",
+            "separation",
+            "transition"
+        ],
+        "examples": [
+            "Flow over flat plate",
+            "Transition to turbulence in boundary layer",
+            "Form drag vs skin friction"
+        ]
+    },
+    {
+        "name": "Lagrangian Mechanics",
+        "topic": "Classical Mechanics",
+        "definition": "Reformulation of classical mechanics using energy rather than forces.",
+        "formula": "L = T - V (Lagrangian); Euler-Lagrange: d/dt(∂L/∂q̇) - ∂L/∂q = 0",
+        "keywords": [
+            "Lagrangian",
+            "action",
+            "generalized coordinates",
+            "variational"
+        ],
+        "examples": [
+            "Double pendulum easier in Lagrangian formalism",
+            "Principle of least action",
+            "Noether's theorem: symmetries → conservation laws"
+        ]
+    },
+    {
+        "name": "Hamiltonian Mechanics",
+        "topic": "Classical Mechanics",
+        "definition": "Formulation of mechanics using phase space and canonical coordinates.",
+        "formula": "H = Σpᵢq̇ᵢ - L; Hamilton's equations: q̇ = ∂H/∂p, ṗ = -∂H/∂q",
+        "keywords": [
+            "Hamiltonian",
+            "phase space",
+            "canonical",
+            "Poisson bracket"
+        ],
+        "examples": [
+            "Often H = T + V (total energy)",
+            "Phase space trajectories",
+            "Foundation for quantum mechanics"
+        ]
+    },
+    {
+        "name": "Rigid Body Dynamics",
+        "topic": "Classical Mechanics",
+        "definition": "Motion of extended objects with fixed shape.",
+        "formula": "L = Iω (angular momentum); τ = Iα; Parallel axis: I = Icm + Md²",
+        "keywords": [
+            "rigid body",
+            "moment of inertia",
+            "rotation",
+            "gyroscope",
+            "precession"
+        ],
+        "examples": [
+            "Sphere: I = (2/5)MR²; Rod: I = (1/12)ML²",
+            "Gyroscopic precession",
+            "Euler's equations for 3D rotation"
+        ]
+    },
+    {
+        "name": "Central Force Motion",
+        "topic": "Classical Mechanics",
+        "definition": "Motion under force directed toward/away from fixed point.",
+        "formula": "F = f(r)r̂; Angular momentum conserved: L = mr²θ̇",
+        "keywords": [
+            "central force",
+            "Kepler",
+            "orbital",
+            "eccentricity",
+            "conic sections"
+        ],
+        "examples": [
+            "Gravitational orbits (Kepler's laws)",
+            "Coulomb scattering",
+            "Effective potential: Veff = V(r) + L²/(2mr²)"
+        ]
+    },
+    {
+        "name": "Normal Modes and Oscillations",
+        "topic": "Classical Mechanics",
+        "definition": "Coupled oscillators have special modes where all parts oscillate at same frequency.",
+        "formula": "Find eigenfrequencies ω from det(K - ω²M) = 0",
+        "keywords": [
+            "normal modes",
+            "coupled oscillators",
+            "eigenfrequency",
+            "resonance"
+        ],
+        "examples": [
+            "Two masses on springs",
+            "Molecular vibrations",
+            "Music: fundamentals and overtones"
+        ]
+    },
+    {
+        "name": "Crystal Structure",
+        "topic": "Condensed Matter",
+        "definition": "Periodic arrangement of atoms in solids forming lattice.",
+        "formula": "Bravais lattice; Reciprocal lattice for k-space",
+        "keywords": [
+            "crystal",
+            "lattice",
+            "unit cell",
+            "Bravais",
+            "diffraction"
+        ],
+        "examples": [
+            "FCC, BCC, HCP structures",
+            "X-ray diffraction: Bragg's law 2d sin(θ) = nλ",
+            "Miller indices for crystal planes"
+        ]
+    },
+    {
+        "name": "Band Theory of Solids",
+        "topic": "Condensed Matter",
+        "definition": "Electronic structure in crystals; energy bands separated by gaps.",
+        "formula": "Bloch theorem: ψₖ(r) = uₖ(r)e^(ik·r)",
+        "keywords": [
+            "band structure",
+            "Fermi level",
+            "insulator",
+            "semiconductor",
+            "conductor"
+        ],
+        "examples": [
+            "Metals: partially filled bands",
+            "Insulators: filled valence band, large gap",
+            "Semiconductors: small gap, thermally activated carriers"
+        ]
+    },
+    {
+        "name": "Phonons",
+        "topic": "Condensed Matter",
+        "definition": "Quantized lattice vibrations in solids.",
+        "formula": "ω(k) dispersion relation; Heat capacity from phonon modes",
+        "keywords": [
+            "phonon",
+            "lattice vibration",
+            "thermal conductivity",
+            "Debye model"
+        ],
+        "examples": [
+            "Acoustic vs optical phonons",
+            "Debye T³ law for heat capacity at low T",
+            "Thermal conductivity in insulators"
+        ]
+    },
+    {
+        "name": "Superconductivity",
+        "topic": "Condensed Matter",
+        "definition": "Zero electrical resistance and expulsion of magnetic fields below critical temperature.",
+        "formula": "BCS theory: Cooper pairs; Critical field Hc",
+        "keywords": [
+            "superconductor",
+            "Cooper pair",
+            "Meissner effect",
+            "BCS",
+            "critical temperature"
+        ],
+        "examples": [
+            "Zero resistance below Tc",
+            "Meissner effect: perfect diamagnetism",
+            "Applications: MRI, particle accelerators"
+        ]
+    },
+    {
+        "name": "Ferromagnetism",
+        "topic": "Condensed Matter",
+        "definition": "Spontaneous magnetization due to aligned magnetic moments.",
+        "formula": "Curie temperature Tc; Below Tc: spontaneous magnetization",
+        "keywords": [
+            "ferromagnet",
+            "Curie temperature",
+            "domain",
+            "hysteresis",
+            "Ising model"
+        ],
+        "examples": [
+            "Iron, cobalt, nickel",
+            "Magnetic domains and domain walls",
+            "Hysteresis loop"
+        ]
+    },
+    {
+        "name": "Radioactive Decay",
+        "topic": "Nuclear Physics",
+        "definition": "Spontaneous transformation of unstable nuclei emitting radiation.",
+        "formula": "N(t) = N₀e^(-λt); Half-life: t₁/₂ = ln(2)/λ",
+        "keywords": [
+            "decay",
+            "half-life",
+            "alpha",
+            "beta",
+            "gamma",
+            "activity"
+        ],
+        "examples": [
+            "C-14 dating: t₁/₂ = 5730 years",
+            "Alpha decay: He nucleus emission",
+            "Beta decay: weak interaction, neutrinos"
+        ]
+    },
+    {
+        "name": "Nuclear Fission",
+        "topic": "Nuclear Physics",
+        "definition": "Splitting of heavy nucleus into lighter nuclei, releasing energy.",
+        "formula": "U-235 + n → fission products + neutrons + ~200 MeV",
+        "keywords": [
+            "fission",
+            "chain reaction",
+            "uranium",
+            "critical mass",
+            "reactor"
+        ],
+        "examples": [
+            "Nuclear reactor: controlled chain reaction",
+            "Atomic bomb: uncontrolled chain reaction",
+            "Binding energy per nucleon drives fission"
+        ]
+    },
+    {
+        "name": "Nuclear Fusion",
+        "topic": "Nuclear Physics",
+        "definition": "Combining light nuclei to form heavier nucleus, releasing energy.",
+        "formula": "D + T → He-4 + n + 17.6 MeV; pp-chain in stars",
+        "keywords": [
+            "fusion",
+            "plasma",
+            "tokamak",
+            "stellar",
+            "binding energy"
+        ],
+        "examples": [
+            "Sun's energy from hydrogen fusion",
+            "Deuterium-tritium fusion",
+            "ITER tokamak fusion reactor"
+        ]
+    },
+    {
+        "name": "Standard Model Particles",
+        "topic": "Particle Physics",
+        "definition": "Classification of fundamental particles: quarks, leptons, gauge bosons.",
+        "formula": "6 quarks (u,d,c,s,t,b); 6 leptons (e,μ,τ,νₑ,νμ,ντ); gauge bosons (γ,W,Z,g,H)",
+        "keywords": [
+            "quark",
+            "lepton",
+            "boson",
+            "fermion",
+            "standard model"
+        ],
+        "examples": [
+            "Proton: uud quarks",
+            "Electron is fundamental lepton",
+            "Higgs boson discovered 2012"
+        ]
+    },
+    {
+        "name": "Fundamental Forces",
+        "topic": "Particle Physics",
+        "definition": "Four fundamental interactions: gravity, electromagnetic, weak, strong.",
+        "formula": "Mediated by gauge bosons: γ (EM), W/Z (weak), gluons (strong)",
+        "keywords": [
+            "force",
+            "interaction",
+            "gauge boson",
+            "unification",
+            "coupling"
+        ],
+        "examples": [
+            "Strong force binds quarks in protons",
+            "Weak force causes beta decay",
+            "EM much stronger than weak at low energy"
+        ]
+    },
+    {
+        "name": "Compton Scattering",
+        "topic": "Modern Physics",
+        "definition": "Inelastic scattering of photon by electron, demonstrating particle nature of light.",
+        "formula": "λ' - λ = (h/mₑc)(1 - cos θ)",
+        "keywords": [
+            "Compton",
+            "photon",
+            "scattering",
+            "wavelength shift",
+            "particle"
+        ],
+        "examples": [
+            "X-ray scattering off electrons",
+            "Confirms photon momentum p = h/λ",
+            "Nobel Prize 1927 (Compton)"
+        ]
+    },
+    {
+        "name": "Photoelectric Effect",
+        "topic": "Modern Physics",
+        "definition": "Emission of electrons from material when illuminated by light above threshold frequency.",
+        "formula": "KEmax = hf - φ where φ is work function",
+        "keywords": [
+            "photoelectric",
+            "photon",
+            "work function",
+            "Einstein",
+            "threshold"
+        ],
+        "examples": [
+            "No emission below threshold, regardless of intensity",
+            "Stopping potential measures KEmax",
+            "Nobel Prize 1921 (Einstein)"
+        ]
+    },
+    {
+        "name": "Blackbody Radiation",
+        "topic": "Statistical Mechanics",
+        "definition": "Thermal electromagnetic radiation emitted by body in thermal equilibrium.",
+        "formula": "Planck: u(f) = (8πhf³/c³)/[exp(hf/kT) - 1]; Stefan-Boltzmann: P = σAT⁴",
+        "keywords": [
+            "blackbody",
+            "Planck",
+            "Wien",
+            "Stefan-Boltzmann",
+            "ultraviolet catastrophe"
+        ],
+        "examples": [
+            "Sun approximates blackbody at T ≈ 5800K",
+            "CMB radiation at T = 2.7K",
+            "Wien's law: λmax ∝ 1/T"
+        ]
+    },
+    {
+        "name": "Cyclotron and Synchrotron Motion",
+        "topic": "Electrodynamics",
+        "definition": "Charged particle motion in magnetic field follows circular/helical path.",
+        "formula": "Cyclotron frequency: ωc = qB/m; Radius: r = mv/(qB)",
+        "keywords": [
+            "cyclotron",
+            "Lorentz force",
+            "circular motion",
+            "synchrotron",
+            "mass spectrometer"
+        ],
+        "examples": [
+            "Cyclotron accelerator",
+            "Mass spectrometry",
+            "Synchrotron radiation from relativistic electrons"
+        ]
+    },
+    {
+        "name": "Hall Effect",
+        "topic": "Electromagnetism",
+        "definition": "Voltage developed across conductor with current in magnetic field.",
+        "formula": "VH = IB/(nqt) where n is charge carrier density",
+        "keywords": [
+            "Hall effect",
+            "charge carriers",
+            "magnetic field",
+            "conductivity"
+        ],
+        "examples": [
+            "Determines carrier type (electrons vs holes)",
+            "Measures carrier density",
+            "Quantum Hall effect in 2D systems"
+        ]
+    },
+    {
+        "name": "Plasma Physics",
+        "topic": "Fluid Dynamics",
+        "definition": "Fourth state of matter: ionized gas with collective behavior.",
+        "formula": "Debye length: λD = √(ε₀kT/nq²); Plasma frequency: ωp = √(nq²/ε₀m)",
+        "keywords": [
+            "plasma",
+            "ionized gas",
+            "Debye shielding",
+            "fusion",
+            "magnetosphere"
+        ],
+        "examples": [
+            "Sun's interior is plasma",
+            "Fusion reactors require confined plasma",
+            "Lightning, aurora, neon signs"
+        ]
+    },
+    {
+        "name": "Doppler Effect - Relativistic",
+        "topic": "Special Relativity",
+        "definition": "Frequency shift for light from moving source, including time dilation.",
+        "formula": "f' = f√[(1-β)/(1+β)] for recession, β = v/c",
+        "keywords": [
+            "Doppler",
+            "redshift",
+            "blueshift",
+            "cosmology",
+            "relativity"
+        ],
+        "examples": [
+            "Cosmological redshift from expansion",
+            "Police radar guns",
+            "Astrophysical spectroscopy"
+        ]
+    },
+    {
+        "name": "Lorentz Transformation",
+        "topic": "Special Relativity",
+        "definition": "Coordinate transformation between inertial frames in special relativity.",
+        "formula": "x' = γ(x - vt); t' = γ(t - vx/c²); γ = 1/√(1-v²/c²)",
+        "keywords": [
+            "Lorentz",
+            "boost",
+            "spacetime",
+            "invariant",
+            "four-vector"
+        ],
+        "examples": [
+            "Replaces Galilean transformation",
+            "Preserves spacetime interval: (cΔt)² - (Δx)²",
+            "Leads to time dilation, length contraction"
+        ]
+    },
+    {
+        "name": "Conservation Laws in Particle Physics",
+        "topic": "Particle Physics",
+        "definition": "Conserved quantities in particle interactions: energy, momentum, charge, baryon number, lepton number.",
+        "formula": "Energy-momentum: E² = (pc)² + (mc²)²",
+        "keywords": [
+            "conservation",
+            "symmetry",
+            "Noether",
+            "quantum number"
+        ],
+        "examples": [
+            "Charge conservation in all interactions",
+            "Baryon number: proton cannot decay to lighter particles only",
+            "CPT theorem in quantum field theory"
+        ]
+    },
+    {
+        "name": "Feynman Diagrams",
+        "topic": "Particle Physics",
+        "definition": "Pictorial representation of particle interactions in quantum field theory.",
+        "formula": "Vertices represent interactions; Lines represent particle propagators",
+        "keywords": [
+            "Feynman diagram",
+            "QED",
+            "vertex",
+            "propagator",
+            "scattering"
+        ],
+        "examples": [
+            "Electron-positron annihilation to photons",
+            "Compton scattering diagram",
+            "Calculate scattering amplitudes"
+        ]
+    }
+]

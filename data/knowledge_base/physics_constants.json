@@ -1,0 +1,29 @@
+{
+    "constants": {
+        "g": {
+            "value": 9.8,
+            "unit": "m/s^2",
+            "name": "Acceleration due to gravity"
+        },
+        "G": {
+            "value": 6.67430e-11,
+            "unit": "m^3/kg/s^2",
+            "name": "Gravitational constant"
+        },
+        "c": {
+            "value": 299792458,
+            "unit": "m/s",
+            "name": "Speed of light"
+        },
+        "h": {
+            "value": 6.62607015e-34,
+            "unit": "J*s",
+            "name": "Planck constant"
+        },
+        "k_e": {
+            "value": 8.9875517923e9,
+            "unit": "N*m^2/C^2",
+            "name": "Coulomb constant"
+        }
+    }
+}

@@ -1,0 +1,524 @@
+[
+    {
+        "name": "Chemical Bonding - Ionic",
+        "topic": "Chemical Bonding",
+        "definition": "Bond formed by transfer of electrons from one atom to another, creating oppositely charged ions.",
+        "formula": "M → M⁺ + e⁻; X + e⁻ → X⁻; Coulomb attraction: E = -kq₁q₂/r",
+        "keywords": [
+            "ionic",
+            "electron transfer",
+            "cation",
+            "anion",
+            "lattice energy"
+        ],
+        "examples": [
+            "NaCl: Na⁺ + Cl⁻",
+            "MgO: Mg²⁺ + O²⁻",
+            "High melting points, conduct when molten"
+        ]
+    },
+    {
+        "name": "Chemical Bonding - Covalent",
+        "topic": "Chemical Bonding",
+        "definition": "Bond formed by sharing of electron pairs between atoms.",
+        "formula": "Shared electrons between atoms; Single, double, triple bonds",
+        "keywords": [
+            "covalent",
+            "electron sharing",
+            "bond length",
+            "bond energy",
+            "electronegativity"
+        ],
+        "examples": [
+            "H₂: H-H single bond",
+            "O₂: O=O double bond",
+            "N₂: N≡N triple bond"
+        ]
+    },
+    {
+        "name": "Metallic Bonding",
+        "topic": "Chemical Bonding",
+        "definition": "Bonding in metals where electrons are delocalized across lattice of cations.",
+        "formula": "Sea of electrons model; high conductivity",
+        "keywords": [
+            "metallic",
+            "delocalized electrons",
+            "conductivity",
+            "malleability"
+        ],
+        "examples": [
+            "Copper, iron, aluminum",
+            "Good electrical and thermal conductors",
+            "Malleable and ductile"
+        ]
+    },
+    {
+        "name": "VSEPR Theory",
+        "topic": "Chemical Bonding",
+        "definition": "Valence Shell Electron Pair Repulsion theory predicts molecular geometry based on electron pair repulsion.",
+        "formula": "Minimize repulsion between electron pairs around central atom",
+        "keywords": [
+            "VSEPR",
+            "molecular geometry",
+            "electron pairs",
+            "shape",
+            "bond angle"
+        ],
+        "examples": [
+            "CH₄: tetrahedral, 109.5°",
+            "NH₃: trigonal pyramidal, 107°",
+            "H₂O: bent, 104.5°"
+        ]
+    },
+    {
+        "name": "Molecular Orbital Theory",
+        "topic": "Chemical Bonding",
+        "definition": "Quantum mechanical description of bonding using molecular orbitals formed from atomic orbitals.",
+        "formula": "LCAO: ψ = c₁φ₁ + c₂φ₂; Bonding and antibonding MOs",
+        "keywords": [
+            "molecular orbital",
+            "LCAO",
+            "bonding",
+            "antibonding",
+            "bond order"
+        ],
+        "examples": [
+            "H₂: σ bonding MO filled, bond order = 1",
+            "O₂: has unpaired electrons (paramagnetic)",
+            "Bond order = (bonding - antibonding)/2"
+        ]
+    },
+    {
+        "name": "Hybridization",
+        "topic": "Chemical Bonding",
+        "definition": "Mixing of atomic orbitals to form new hybrid orbitals for bonding.",
+        "formula": "sp, sp², sp³, sp³d, sp³d² hybridization",
+        "keywords": [
+            "hybridization",
+            "sp",
+            "sp2",
+            "sp3",
+            "orbital mixing"
+        ],
+        "examples": [
+            "CH₄: sp³ (tetrahedral)",
+            "C₂H₄: sp² (trigonal planar)",
+            "C₂H₂: sp (linear)"
+        ]
+    },
+    {
+        "name": "Intermolecular Forces",
+        "topic": "Chemical Bonding",
+        "definition": "Attractive forces between molecules, weaker than chemical bonds.",
+        "formula": "Van der Waals < Dipole-dipole < H-bonding",
+        "keywords": [
+            "intermolecular",
+            "van der Waals",
+            "hydrogen bonding",
+            "dipole"
+        ],
+        "examples": [
+            "H-bonding in water: unusually high boiling point",
+            "London dispersion in noble gases",
+            "Dipole-dipole in HCl"
+        ]
+    },
+    {
+        "name": "Electronegativity",
+        "topic": "Chemical Bonding",
+        "definition": "Measure of atom's ability to attract electrons in a bond.",
+        "formula": "Pauling scale: F = 4.0 (highest)",
+        "keywords": [
+            "electronegativity",
+            "polarity",
+            "Pauling",
+            "partial charge"
+        ],
+        "examples": [
+            "F > O > N > Cl",
+            "ΔEN > 1.7: ionic; 0.4-1.7: polar covalent; < 0.4: nonpolar",
+            "HF is highly polar"
+        ]
+    },
+    {
+        "name": "Enthalpy",
+        "topic": "Thermochemistry",
+        "definition": "Heat content of system at constant pressure; ΔH is heat absorbed/released.",
+        "formula": "H = U + PV; ΔH = Hproducts - Hreactants",
+        "keywords": [
+            "enthalpy",
+            "heat",
+            "exothermic",
+            "endothermic",
+            "Hess's law"
+        ],
+        "examples": [
+            "Combustion: ΔH < 0 (exothermic)",
+            "Melting ice: ΔH > 0 (endothermic)",
+            "Standard enthalpy of formation ΔH°f"
+        ]
+    },
+    {
+        "name": "Entropy",
+        "topic": "Thermochemistry",
+        "definition": "Measure of disorder or randomness in system.",
+        "formula": "ΔS = Qrev/T; Second law: ΔSuniverse ≥ 0",
+        "keywords": [
+            "entropy",
+            "disorder",
+            "spontaneity",
+            "second law"
+        ],
+        "examples": [
+            "Gas has higher entropy than liquid",
+            "Mixing increases entropy",
+            "ΔS > 0 for spontaneous processes at const T, P (if ΔH < 0)"
+        ]
+    },
+    {
+        "name": "Gibbs Free Energy",
+        "topic": "Thermochemistry",
+        "definition": "Energy available to do work; determines spontaneity at constant T and P.",
+        "formula": "G = H - TS; ΔG = ΔH - TΔS",
+        "keywords": [
+            "Gibbs",
+            "free energy",
+            "spontaneous",
+            "equilibrium"
+        ],
+        "examples": [
+            "ΔG < 0: spontaneous",
+            "ΔG = 0: equilibrium",
+            "ΔG > 0: non-spontaneous"
+        ]
+    },
+    {
+        "name": "Hess's Law",
+        "topic": "Thermochemistry",
+        "definition": "Total enthalpy change is independent of pathway; sum of steps.",
+        "formula": "ΔHreaction = Σ ΔHsteps",
+        "keywords": [
+            "Hess's law",
+            "enthalpy",
+            "pathway independence",
+            "additivity"
+        ],
+        "examples": [
+            "Calculate ΔH using known ΔHf values",
+            "Indirect route has same ΔH as direct",
+            "ΔH°rxn = Σ ΔH°f(products) - Σ ΔH°f(reactants)"
+        ]
+    },
+    {
+        "name": "Standard Enthalpy of Formation",
+        "topic": "Thermochemistry",
+        "definition": "Enthalpy change when 1 mole of compound formed from elements in standard states.",
+        "formula": "ΔH°f; Standard state: 25°C, 1 atm",
+        "keywords": [
+            "formation",
+            "standard enthalpy",
+            "elements",
+            "reference"
+        ],
+        "examples": [
+            "ΔH°f of elements = 0",
+            "H₂O(l): ΔH°f = -285.8 kJ/mol",
+            "Use to calculate ΔH°rxn"
+        ]
+    },
+    {
+        "name": "Calorimetry",
+        "topic": "Thermochemistry",
+        "definition": "Measurement of heat transfer in chemical/physical processes.",
+        "formula": "q = mcΔT; qrxn = - qsolution",
+        "keywords": [
+            "calorimetry",
+            "heat capacity",
+            "specific heat",
+            "calorimeter"
+        ],
+        "examples": [
+            "Coffee cup calorimeter (constant P)",
+            "Bomb calorimeter (constant V)",
+            "Measure ΔH of combustion"
+        ]
+    },
+    {
+        "name": "Rate Laws",
+        "topic": "Chemical Kinetics",
+        "definition": "Mathematical relationship between reaction rate and concentrations.",
+        "formula": "rate = k[A]^m[B]^n; m, n are orders",
+        "keywords": [
+            "rate law",
+            "rate constant",
+            "order",
+            "concentration"
+        ],
+        "examples": [
+            "First order: rate = k[A]",
+            "Second order: rate = k[A]²",
+            "Zero order: rate = k"
+        ]
+    },
+    {
+        "name": "Arrhenius Equation",
+        "topic": "Chemical Kinetics",
+        "definition": "Relates rate constant to temperature and activation energy.",
+        "formula": "k = Ae^(-Ea/RT)",
+        "keywords": [
+            "Arrhenius",
+            "activation energy",
+            "rate constant",
+            "temperature"
+        ],
+        "examples": [
+            "Higher T → faster reaction",
+            "Lower Ea → faster reaction",
+            "ln(k) = ln(A) - Ea/(RT) (linear form)"
+        ]
+    },
+    {
+        "name": "Reaction Mechanisms",
+        "topic": "Chemical Kinetics",
+        "definition": "Step-by-step sequence of elementary reactions in overall reaction.",
+        "formula": "Rate-determining step controls overall rate",
+        "keywords": [
+            "mechanism",
+            "elementary step",
+            "intermediate",
+            "rate-determining"
+        ],
+        "examples": [
+            "Unimolecular: A → products",
+            "Bimolecular: A + B → products",
+            "Intermediates formed and consumed"
+        ]
+    },
+    {
+        "name": "Catalysis",
+        "topic": "Chemical Kinetics",
+        "definition": "Substance that increases reaction rate by providing alternate pathway with lower Ea.",
+        "formula": "Catalyst lowers Ea; not consumed in reaction",
+        "keywords": [
+            "catalyst",
+            "activation energy",
+            "homogeneous",
+            "heterogeneous",
+            "enzyme"
+        ],
+        "examples": [
+            "Enzymes in biological systems",
+            "Platinum in catalytic converters",
+            "Acid catalysis in esterification"
+        ]
+    },
+    {
+        "name": "Integrated Rate Laws",
+        "topic": "Chemical Kinetics",
+        "definition": "Equations relating concentration to time for different order reactions.",
+        "formula": "0th: [A] = [A]₀ - kt; 1st: ln[A] = ln[A]₀ - kt; 2nd: 1/[A] = 1/[A]₀ + kt",
+        "keywords": [
+            "integrated rate",
+            "half-life",
+            "concentration",
+            "time"
+        ],
+        "examples": [
+            "First order half-life: t₁/₂ = 0.693/k",
+            "Radioactive decay is first order",
+            "Plot to determine order"
+        ]
+    },
+    {
+        "name": "Half-Life",
+        "topic": "Chemical Kinetics",
+        "definition": "Time required for concentration to decrease to half its initial value.",
+        "formula": "1st order: t₁/₂ = ln(2)/k = 0.693/k",
+        "keywords": [
+            "half-life",
+            "decay",
+            "first order",
+            "radioactive"
+        ],
+        "examples": [
+            "C-14: t₁/₂ = 5730 years",
+            "First order t₁/₂ independent of [A]₀",
+            "Used in carbon dating"
+        ]
+    },
+    {
+        "name": "Chemical Equilibrium",
+        "topic": "Equilibrium",
+        "definition": "State where forward and reverse reaction rates are equal; concentrations constant.",
+        "formula": "aA + bB ⇌ cC + dD; Kc = [C]^c[D]^d / [A]^a[B]^b",
+        "keywords": [
+            "equilibrium",
+            "equilibrium constant",
+            "dynamic",
+            "forward",
+            "reverse"
+        ],
+        "examples": [
+            "N₂ + 3H₂ ⇌ 2NH₃ (Haber process)",
+            "K > 1: products favored",
+            "K < 1: reactants favored"
+        ]
+    },
+    {
+        "name": "Le Chatelier's Principle",
+        "topic": "Equilibrium",
+        "definition": "System at equilibrium responds to stress by shifting to counteract the stress.",
+        "formula": "Shift direction minimizes applied stress",
+        "keywords": [
+            "Le Chatelier",
+            "stress",
+            "shift",
+            "equilibrium"
+        ],
+        "examples": [
+            "Add reactant → shift right",
+            "Increase pressure → shift to fewer moles gas",
+            "Increase T for endothermic → shift right"
+        ]
+    },
+    {
+        "name": "Acid-Base Equilibria",
+        "topic": "Equilibrium",
+        "definition": "Equilibria involving proton transfer; characterized by Ka and Kb.",
+        "formula": "Ka = [H⁺][A⁻]/[HA]; pH = -log[H⁺]; pKa = -log(Ka)",
+        "keywords": [
+            "acid",
+            "base",
+            "pH",
+            "Ka",
+            "Kb",
+            "dissociation"
+        ],
+        "examples": [
+            "Strong acid: Ka >> 1",
+            "Weak acid: Ka < 1",
+            "pH = pKa at half-equivalence"
+        ]
+    },
+    {
+        "name": "Buffer Solutions",
+        "topic": "Equilibrium",
+        "definition": "Solution that resists pH change upon addition of acid or base.",
+        "formula": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA])",
+        "keywords": [
+            "buffer",
+            "pH",
+            "Henderson-Hasselbalch",
+            "conjugate pair"
+        ],
+        "examples": [
+            "Acetic acid/acetate buffer",
+            "Blood buffer: H₂CO₃/HCO₃⁻",
+            "Most effective when pH ≈ pKa"
+        ]
+    },
+    {
+        "name": "Solubility Product",
+        "topic": "Equilibrium",
+        "definition": "Equilibrium constant for dissolution of sparingly soluble ionic compound.",
+        "formula": "Ksp = [M⁺]^m[X⁻]^n for MmXn",
+        "keywords": [
+            "solubility",
+            "Ksp",
+            "precipitation",
+            "common ion"
+        ],
+        "examples": [
+            "AgCl: Ksp = [Ag⁺][Cl⁻] = 1.8×10⁻¹⁰",
+            "Q > Ksp: precipitation",
+            "Common ion effect decreases solubility"
+        ]
+    },
+    {
+        "name": "Redox Reactions",
+        "topic": "Electrochemistry",
+        "definition": "Reactions involving transfer of electrons; oxidation and reduction occur together.",
+        "formula": "Oxidation: loss of e⁻; Reduction: gain of e⁻",
+        "keywords": [
+            "redox",
+            "oxidation",
+            "reduction",
+            "oxidation number",
+            "OIL RIG"
+        ],
+        "examples": [
+            "Zn + Cu²⁺ → Zn²⁺ + Cu",
+            "Zn oxidized (loses e⁻), Cu²⁺ reduced (gains e⁻)",
+            "Combustion, corrosion are redox"
+        ]
+    },
+    {
+        "name": "Electrochemical Cells",
+        "topic": "Electrochemistry",
+        "definition": "Devices that convert chemical energy to electrical energy (galvanic) or vice versa (electrolytic).",
+        "formula": "Galvanic: spontaneous, E°cell > 0; Electrolytic: non-spontaneous, external voltage",
+        "keywords": [
+            "electrochemical cell",
+            "galvanic",
+            "electrolytic",
+            "anode",
+            "cathode"
+        ],
+        "examples": [
+            "Batteries: galvanic cells",
+            "Electrolysis of water: electrolytic",
+            "Anode: oxidation; Cathode: reduction"
+        ]
+    },
+    {
+        "name": "Standard Electrode Potentials",
+        "topic": "Electrochemistry",
+        "definition": "Voltage of half-cell relative to standard hydrogen electrode.",
+        "formula": "E°cell = E°cathode - E°anode; ΔG° = -nFE°cell",
+        "keywords": [
+            "electrode potential",
+            "standard potential",
+            "E°",
+            "reduction potential"
+        ],
+        "examples": [
+            "SHE: 2H⁺ + 2e⁻ → H₂, E° = 0.00 V",
+            "Cu²⁺ + 2e⁻ → Cu, E° = +0.34 V",
+            "Positive E°cell → spontaneous"
+        ]
+    },
+    {
+        "name": "Nernst Equation",
+        "topic": "Electrochemistry",
+        "definition": "Relates cell potential to concentrations of reactants and products.",
+        "formula": "E = E° - (RT/nF)ln(Q) ≈ E° - (0.0592/n)log(Q) at 25°C",
+        "keywords": [
+            "Nernst",
+            "cell potential",
+            "concentration",
+            "Q"
+        ],
+        "examples": [
+            "Calculate E under non-standard conditions",
+            "At equilibrium: E = 0, Q = K",
+            "Used in pH meters, ion-selective electrodes"
+        ]
+    },
+    {
+        "name": "Electrolysis",
+        "topic": "Electrochemistry",
+        "definition": "Using electrical energy to drive non-spontaneous redox reaction.",
+        "formula": "Q = It (charge); n = Q/F (moles of electrons)",
+        "keywords": [
+            "electrolysis",
+            "Faraday's law",
+            "electroplating",
+            "decomposition"
+        ],
+        "examples": [
+            "Electrolysis of molten NaCl → Na + Cl₂",
+            "Electroplating metals",
+            "Charging batteries"
+        ]
+    }
+]

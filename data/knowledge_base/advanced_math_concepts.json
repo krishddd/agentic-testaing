@@ -1,0 +1,921 @@
+[
+    {
+        "name": "Ordinary Differential Equations (ODEs)",
+        "topic": "Differential Equations",
+        "definition": "Equations involving derivatives of a function with respect to one independent variable.",
+        "formula": "dy/dx = f(x,y); General form: F(x, y, y', y'', ..., y^(n)) = 0",
+        "keywords": [
+            "ODE",
+            "differential equation",
+            "initial value problem",
+            "boundary value",
+            "separable"
+        ],
+        "examples": [
+            "dy/dx = ky has solution y = Ce^(kx)",
+            "y'' + 4y = 0 has solution y = C1*cos(2x) + C2*sin(2x)",
+            "Population growth: dP/dt = rP"
+        ]
+    },
+    {
+        "name": "Partial Differential Equations (PDEs)",
+        "topic": "Differential Equations",
+        "definition": "Equations involving partial derivatives of a function with respect to multiple independent variables.",
+        "formula": "∂u/∂t = k(∂²u/∂x²) (heat equation); ∂²u/∂x² + ∂²u/∂y² = 0 (Laplace equation)",
+        "keywords": [
+            "PDE",
+            "partial derivative",
+            "heat equation",
+            "wave equation",
+            "Laplace"
+        ],
+        "examples": [
+            "Heat equation: ∂u/∂t = α∇²u",
+            "Wave equation: ∂²u/∂t² = c²∇²u",
+            "Laplace equation: ∇²φ = 0"
+        ]
+    },
+    {
+        "name": "Laplace Transform",
+        "topic": "Differential Equations",
+        "definition": "An integral transform that converts a function of time into a function of complex frequency.",
+        "formula": "L{f(t)} = F(s) = ∫[0,∞] f(t)e^(-st)dt",
+        "keywords": [
+            "Laplace",
+            "transform",
+            "frequency domain",
+            "s-domain",
+            "inverse Laplace"
+        ],
+        "examples": [
+            "L{1} = 1/s",
+            "L{e^(at)} = 1/(s-a)",
+            "L{sin(ωt)} = ω/(s² + ω²)",
+            "Solving ODEs: L{y''} = s²Y(s) - sy(0) - y'(0)"
+        ]
+    },
+    {
+        "name": "Fourier Series",
+        "topic": "Differential Equations",
+        "definition": "Representation of a periodic function as a sum of sine and cosine functions.",
+        "formula": "f(x) = a₀/2 + Σ[aₙcos(nπx/L) + bₙsin(nπx/L)]",
+        "keywords": [
+            "Fourier",
+            "harmonic analysis",
+            "periodic",
+            "coefficients",
+            "orthogonal"
+        ],
+        "examples": [
+            "Square wave Fourier series",
+            "Sawtooth wave expansion",
+            "Heat conduction with periodic boundary conditions"
+        ]
+    },
+    {
+        "name": "Linear System of ODEs",
+        "topic": "Differential Equations",
+        "definition": "System of differential equations that can be written in matrix form dX/dt = AX.",
+        "formula": "dX/dt = AX, where X is vector, A is coefficient matrix",
+        "keywords": [
+            "system",
+            "matrix",
+            "eigenvalues",
+            "phase portrait",
+            "stability"
+        ],
+        "examples": [
+            "Predator-prey models: dx/dt = ax - bxy, dy/dt = -cy + dxy",
+            "Coupled oscillators",
+            "Solution involves eigenvalues λ and eigenvectors v of A"
+        ]
+    },
+    {
+        "name": "Vector Spaces",
+        "topic": "Linear Algebra",
+        "definition": "A set of vectors with defined addition and scalar multiplication satisfying specific axioms.",
+        "formula": "Axioms: closure, associativity, commutativity, identity, inverse, scalar distribution",
+        "keywords": [
+            "vector space",
+            "basis",
+            "dimension",
+            "span",
+            "linear independence"
+        ],
+        "examples": [
+            "R^n is a vector space",
+            "Set of all polynomials of degree ≤n",
+            "Basis for R³: {(1,0,0), (0,1,0), (0,0,1)}"
+        ]
+    },
+    {
+        "name": "Eigenvalues and Eigenvectors",
+        "topic": "Linear Algebra",
+        "definition": "For matrix A, eigenvector v satisfies Av = λv where λ is the eigenvalue.",
+        "formula": "Av = λv; Characteristic equation: det(A - λI) = 0",
+        "keywords": [
+            "eigenvalue",
+            "eigenvector",
+            "characteristic polynomial",
+            "diagonalization"
+        ],
+        "examples": [
+            "For A = [[2,1],[1,2]]: eigenvalues λ = 3, 1",
+            "Used in principal component analysis (PCA)",
+            "Stability analysis of dynamical systems"
+        ]
+    },
+    {
+        "name": "Matrix Decompositions",
+        "topic": "Linear Algebra",
+        "definition": "Factorization of a matrix into simpler matrices with special properties.",
+        "formula": "LU: A = LU; QR: A = QR; SVD: A = UΣV^T; Eigendecomposition: A = PDP^(-1)",
+        "keywords": [
+            "LU decomposition",
+            "QR",
+            "SVD",
+            "singular value",
+            "factorization"
+        ],
+        "examples": [
+            "LU decomposition for solving Ax = b efficiently",
+            "QR for orthogonalization and least squares",
+            "SVD for data compression and dimensionality reduction"
+        ]
+    },
+    {
+        "name": "Linear Transformations",
+        "topic": "Linear Algebra",
+        "definition": "A function T: V→W between vector spaces preserving addition and scalar multiplication.",
+        "formula": "T(u + v) = T(u) + T(v); T(αu) = αT(u)",
+        "keywords": [
+            "transformation",
+            "kernel",
+            "nullspace",
+            "range",
+            "image",
+            "rank"
+        ],
+        "examples": [
+            "Rotation matrix in R²",
+            "Projection onto a subspace",
+            "Rank-nullity theorem: dim(V) = rank(T) + nullity(T)"
+        ]
+    },
+    {
+        "name": "Inner Product Spaces",
+        "topic": "Linear Algebra",
+        "definition": "Vector space with an inner product (generalized dot product) defining length and angles.",
+        "formula": "⟨u,v⟩ properties: linearity, symmetry, positive definiteness",
+        "keywords": [
+            "inner product",
+            "orthogonal",
+            "norm",
+            "Cauchy-Schwarz",
+            "Gram-Schmidt"
+        ],
+        "examples": [
+            "Euclidean inner product: ⟨u,v⟩ = u·v",
+            "Orthogonal projection: proj_v(u) = (⟨u,v⟩/⟨v,v⟩)v",
+            "Gram-Schmidt orthogonalization process"
+        ]
+    },
+    {
+        "name": "Determinants",
+        "topic": "Linear Algebra",
+        "definition": "A scalar value that can be computed from a square matrix, representing volume scaling factor.",
+        "formula": "det(A) for 2×2: ad-bc; For n×n: cofactor expansion",
+        "keywords": [
+            "determinant",
+            "cofactor",
+            "minor",
+            "volume",
+            "invertible"
+        ],
+        "examples": [
+            "det([[a,b],[c,d]]) = ad - bc",
+            "det(A) = 0 iff A is singular (not invertible)",
+            "det(AB) = det(A)×det(B)"
+        ]
+    },
+    {
+        "name": "Prime Numbers",
+        "topic": "Number Theory",
+        "definition": "Natural numbers greater than 1 that have no positive divisors other than 1 and itself.",
+        "formula": "Fundamental Theorem of Arithmetic: every integer > 1 has unique prime factorization",
+        "keywords": [
+            "prime",
+            "composite",
+            "factorization",
+            "sieve",
+            "Euclidean algorithm"
+        ],
+        "examples": [
+            "First primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29",
+            "60 = 2² × 3 × 5",
+            "Infinitely many primes (Euclid's proof)"
+        ]
+    },
+    {
+        "name": "Modular Arithmetic",
+        "topic": "Number Theory",
+        "definition": "Arithmetic system for integers where numbers wrap around after reaching a modulus.",
+        "formula": "a ≡ b (mod m) means m divides (a-b)",
+        "keywords": [
+            "modulo",
+            "congruence",
+            "remainder",
+            "modular inverse",
+            "Fermat"
+        ],
+        "examples": [
+            "17 ≡ 5 (mod 12) because 17 = 12 + 5",
+            "Clock arithmetic: 10 + 5 ≡ 3 (mod 12)",
+            "Fermat's Little Theorem: a^p ≡ a (mod p) for prime p"
+        ]
+    },
+    {
+        "name": "Greatest Common Divisor (GCD)",
+        "topic": "Number Theory",
+        "definition": "The largest positive integer that divides both numbers without remainder.",
+        "formula": "Euclidean algorithm: gcd(a,b) = gcd(b, a mod b)",
+        "keywords": [
+            "GCD",
+            "greatest common divisor",
+            "Euclidean algorithm",
+            "coprime",
+            "Bezout"
+        ],
+        "examples": [
+            "gcd(48, 18) = 6",
+            "gcd(17, 13) = 1 (coprime)",
+            "Bezout's identity: gcd(a,b) = ax + by for some integers x, y"
+        ]
+    },
+    {
+        "name": "Diophantine Equations",
+        "topic": "Number Theory",
+        "definition": "Polynomial equations where only integer solutions are sought.",
+        "formula": "Linear: ax + by = c; Pythagorean: x² + y² = z²",
+        "keywords": [
+            "Diophantine",
+            "integer solutions",
+            "Pythagorean triples",
+            "Fermat"
+        ],
+        "examples": [
+            "3x + 5y = 1 has solution x=2, y=-1",
+            "Pythagorean triple: 3² + 4² = 5²",
+            "Fermat's Last Theorem: x^n + y^n = z^n has no integer solutions for n>2"
+        ]
+    },
+    {
+        "name": "Chinese Remainder Theorem",
+        "topic": "Number Theory",
+        "definition": "System of congruences with coprime moduli has a unique solution modulo the product of moduli.",
+        "formula": "x ≡ a₁ (mod m₁), x ≡ a₂ (mod m₂), ... has unique solution mod (m₁×m₂×...)",
+        "keywords": [
+            "CRT",
+            "congruence system",
+            "coprime",
+            "modular arithmetic"
+        ],
+        "examples": [
+            "x ≡ 2 (mod 3), x ≡ 3 (mod 5), x ≡ 2 (mod 7) → x = 23",
+            "Used in RSA cryptography",
+            "Fast computation in modular arithmetic"
+        ]
+    },
+    {
+        "name": "Graph Theory Basics",
+        "topic": "Discrete Mathematics",
+        "definition": "Study of graphs: mathematical structures modeling pairwise relations between objects.",
+        "formula": "Graph G = (V, E) where V = vertices, E = edges",
+        "keywords": [
+            "graph",
+            "vertex",
+            "edge",
+            "degree",
+            "adjacent",
+            "connected"
+        ],
+        "examples": [
+            "Complete graph K_n has n vertices, all connected",
+            "Tree: connected graph with no cycles",
+            "Handshaking lemma: Σ deg(v) = 2|E|"
+        ]
+    },
+    {
+        "name": "Graph Traversal Algorithms",
+        "topic": "Discrete Mathematics",
+        "definition": "Algorithms for visiting all vertices in a graph systematically.",
+        "formula": "DFS (Depth-First Search); BFS (Breadth-First Search)",
+        "keywords": [
+            "DFS",
+            "BFS",
+            "traversal",
+            "search",
+            "stack",
+            "queue"
+        ],
+        "examples": [
+            "BFS uses queue, finds shortest path in unweighted graphs",
+            "DFS uses stack (or recursion), good for cycle detection",
+            "Maze solving, web crawling applications"
+        ]
+    },
+    {
+        "name": "Shortest Path Algorithms",
+        "topic": "Discrete Mathematics",
+        "definition": "Algorithms to find minimum-weight path between vertices in weighted graphs.",
+        "formula": "Dijkstra's algorithm; Bellman-Ford; Floyd-Warshall",
+        "keywords": [
+            "Dijkstra",
+            "shortest path",
+            "weighted graph",
+            "Bellman-Ford",
+            "Floyd-Warshall"
+        ],
+        "examples": [
+            "Dijkstra: O(E log V) with priority queue",
+            "Bellman-Ford handles negative weights: O(VE)",
+            "GPS navigation, network routing"
+        ]
+    },
+    {
+        "name": "Minimum Spanning Tree",
+        "topic": "Discrete Mathematics",
+        "definition": "Subset of edges that connects all vertices with minimum total weight, no cycles.",
+        "formula": "Kruskal's algorithm; Prim's algorithm",
+        "keywords": [
+            "MST",
+            "spanning tree",
+            "Kruskal",
+            "Prim",
+            "greedy algorithm"
+        ],
+        "examples": [
+            "Kruskal: sort edges, add if no cycle (union-find)",
+            "Prim: grow tree from starting vertex",
+            "Network design, circuit wiring"
+        ]
+    },
+    {
+        "name": "Combinatorics - Permutations and Combinations",
+        "topic": "Discrete Mathematics",
+        "definition": "Counting arrangements (order matters) and selections (order doesn't matter) of objects.",
+        "formula": "P(n,r) = n!/(n-r)!; C(n,r) = n!/[r!(n-r)!] = (n choose r)",
+        "keywords": [
+            "permutation",
+            "combination",
+            "factorial",
+            "binomial coefficient",
+            "counting"
+        ],
+        "examples": [
+            "P(5,3) = 60 ways to arrange 3 of 5 objects",
+            "C(5,3) = 10 ways to choose 3 of 5 objects",
+            "Binomial theorem: (x+y)^n = Σ C(n,k)x^k y^(n-k)"
+        ]
+    },
+    {
+        "name": "Pigeonhole Principle",
+        "topic": "Discrete Mathematics",
+        "definition": "If n items are placed in m containers and n > m, at least one container has more than one item.",
+        "formula": "n objects, m holes, n > m → ∃ hole with ⌈n/m⌉ objects",
+        "keywords": [
+            "pigeonhole",
+            "counting",
+            "existence proof",
+            "Dirichlet"
+        ],
+        "examples": [
+            "13 people → at least 2 born in same month",
+            "367 people → at least 2 share same birthday",
+            "In any set of n+1 integers from {1,2,...,2n}, two are coprime"
+        ]
+    },
+    {
+        "name": "Generating Functions",
+        "topic": "Discrete Mathematics",
+        "definition": "Power series whose coefficients encode a sequence, used for counting problems.",
+        "formula": "G(x) = Σ aₙx^n where aₙ is the sequence",
+        "keywords": [
+            "generating function",
+            "power series",
+            "recurrence",
+            "combinatorics"
+        ],
+        "examples": [
+            "Fibonacci: G(x) = x/(1-x-x²)",
+            "(1+x)^n = Σ C(n,k)x^k",
+            "Solving recurrence relations analytically"
+        ]
+    },
+    {
+        "name": "Propositional Logic",
+        "topic": "Discrete Mathematics",
+        "definition": "Study of logical statements and their truth values using connectives.",
+        "formula": "Connectives: ¬ (NOT), ∧ (AND), ∨ (OR), → (IMPLIES), ↔ (IFF)",
+        "keywords": [
+            "logic",
+            "proposition",
+            "truth table",
+            "tautology",
+            "contradiction"
+        ],
+        "examples": [
+            "Law of excluded middle: P ∨ ¬P is always true",
+            "De Morgan's laws: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q",
+            "Modus ponens: (P → Q) ∧ P ⊢ Q"
+        ]
+    },
+    {
+        "name": "Predicate Logic",
+        "topic": "Discrete Mathematics",
+        "definition": "Extension of propositional logic with quantifiers and predicates over domains.",
+        "formula": "∀x P(x) (for all); ∃x P(x) (exists)",
+        "keywords": [
+            "predicate",
+            "quantifier",
+            "universal",
+            "existential",
+            "first-order logic"
+        ],
+        "examples": [
+            "∀x (x > 0 → x² > 0)",
+            "∃x (x² = 2) is true in reals, false in rationals",
+            "¬∀x P(x) ≡ ∃x ¬P(x)"
+        ]
+    },
+    {
+        "name": "Recurrence Relations",
+        "topic": "Discrete Mathematics",
+        "definition": "Equations defining sequences recursively in terms of previous terms.",
+        "formula": "aₙ = f(aₙ₋₁, aₙ₋₂, ...); Example: Fibonacci Fₙ = Fₙ₋₁ + Fₙ₋₂",
+        "keywords": [
+            "recurrence",
+            "recursive",
+            "Fibonacci",
+            "characteristic equation",
+            "iteration"
+        ],
+        "examples": [
+            "Fibonacci: F₀=0, F₁=1, Fₙ=Fₙ₋₁+Fₙ₋₂",
+            "Towers of Hanoi: T(n) = 2T(n-1) + 1",
+            "Solving: find characteristic equation, general solution"
+        ]
+    },
+    {
+        "name": "Groups",
+        "topic": "Abstract Algebra",
+        "definition": "A set with a binary operation satisfying closure, associativity, identity, and inverse.",
+        "formula": "Group (G, ∗): ∀a,b∈G: a∗b∈G; (a∗b)∗c=a∗(b∗c); ∃e: a∗e=a; ∀a ∃a⁻¹: a∗a⁻¹=e",
+        "keywords": [
+            "group",
+            "abelian",
+            "order",
+            "subgroup",
+            "cyclic"
+        ],
+        "examples": [
+            "(Z, +) is an abelian group",
+            "Symmetry group of square (D₄) has order 8",
+            "Cyclic group Zₙ under addition mod n"
+        ]
+    },
+    {
+        "name": "Rings and Fields",
+        "topic": "Abstract Algebra",
+        "definition": "Ring: set with two operations (+, ×) forming abelian group under +. Field: ring where all nonzero elements have multiplicative inverse.",
+        "formula": "Ring: (R, +, ×); Field: (F, +, ×) with division",
+        "keywords": [
+            "ring",
+            "field",
+            "integral domain",
+            "polynomial ring",
+            "commutative"
+        ],
+        "examples": [
+            "Z is a ring but not a field",
+            "Q, R, C are fields",
+            "Z[x] is a polynomial ring over integers"
+        ]
+    },
+    {
+        "name": "Homomorphisms and Isomorphisms",
+        "topic": "Abstract Algebra",
+        "definition": "Structure-preserving maps between algebraic structures. Isomorphism is bijective homomorphism.",
+        "formula": "φ: G→H is homomorphism if φ(a∗b) = φ(a)∗φ(b)",
+        "keywords": [
+            "homomorphism",
+            "isomorphism",
+            "kernel",
+            "image",
+            "automorphism"
+        ],
+        "examples": [
+            "φ: (R,+) → (R⁺,×) by φ(x) = e^x is isomorphism",
+            "Kernel of φ: ker(φ) = {g ∈ G : φ(g) = e_H}",
+            "First Isomorphism Theorem: G/ker(φ) ≅ im(φ)"
+        ]
+    },
+    {
+        "name": "Quotient Groups",
+        "topic": "Abstract Algebra",
+        "definition": "Group formed by partitioning a group by a normal subgroup.",
+        "formula": "G/N = {gN : g ∈ G} where N is normal subgroup",
+        "keywords": [
+            "quotient",
+            "normal subgroup",
+            "coset",
+            "factor group"
+        ],
+        "examples": [
+            "Z/nZ = Zₙ (integers mod n)",
+            "Quotient by kernel gives isomorphic image",
+            "Used in Galois theory, homology"
+        ]
+    },
+    {
+        "name": "Metric Spaces",
+        "topic": "Topology",
+        "definition": "Set with a distance function (metric) satisfying non-negativity, identity, symmetry, triangle inequality.",
+        "formula": "d: X×X → R≥0; d(x,y)=0 iff x=y; d(x,y)=d(y,x); d(x,z)≤d(x,y)+d(y,z)",
+        "keywords": [
+            "metric",
+            "distance",
+            "topology",
+            "open set",
+            "closed set"
+        ],
+        "examples": [
+            "Euclidean metric: d(x,y) = ||x-y||",
+            "Discrete metric: d(x,y) = 0 if x=y, else 1",
+            "Manhattan metric: d((x₁,y₁),(x₂,y₂)) = |x₁-x₂| + |y₁-y₂|"
+        ]
+    },
+    {
+        "name": "Continuity and Limits",
+        "topic": "Real Analysis",
+        "definition": "Function f is continuous at a if lim(x→a) f(x) = f(a).",
+        "formula": "ε-δ definition: ∀ε>0 ∃δ>0: |x-a|<δ → |f(x)-f(a)|<ε",
+        "keywords": [
+            "continuity",
+            "limit",
+            "epsilon-delta",
+            "uniform continuity"
+        ],
+        "examples": [
+            "Polynomial functions are continuous everywhere",
+            "f(x) = 1/x is continuous on (0,∞) but not at 0",
+            "Intermediate Value Theorem for continuous functions"
+        ]
+    },
+    {
+        "name": "Sequences and Series Convergence",
+        "topic": "Real Analysis",
+        "definition": "Sequence converges to L if terms get arbitrarily close to L. Series converges if partial sums converge.",
+        "formula": "limₙ→∞ aₙ = L; Series Σaₙ converges if limₙ→∞ Sₙ exists",
+        "keywords": [
+            "convergence",
+            "divergence",
+            "Cauchy sequence",
+            "absolute convergence"
+        ],
+        "examples": [
+            "aₙ = 1/n → 0 as n → ∞",
+            "Geometric series Σr^n converges iff |r| < 1",
+            "Cauchy criterion: ∀ε>0 ∃N: m,n>N → |aₘ-aₙ|<ε"
+        ]
+    },
+    {
+        "name": "Compactness",
+        "topic": "Topology",
+        "definition": "A set is compact if every open cover has a finite subcover. In R^n, equivalent to closed and bounded.",
+        "formula": "Heine-Borel: K ⊂ R^n is compact iff K is closed and bounded",
+        "keywords": [
+            "compact",
+            "Heine-Borel",
+            "open cover",
+            "finite subcover"
+        ],
+        "examples": [
+            "[0,1] is compact in R",
+            "(0,1) is not compact (not closed)",
+            "Extreme Value Theorem: continuous f on compact K attains max/min"
+        ]
+    },
+    {
+        "name": "Gradient and Directional Derivatives",
+        "topic": "Multivariable Calculus",
+        "definition": "Gradient is vector of partial derivatives; directional derivative is rate of change in a given direction.",
+        "formula": "∇f = (∂f/∂x, ∂f/∂y, ∂f/∂z); D_u f = ∇f · u",
+        "keywords": [
+            "gradient",
+            "directional derivative",
+            "steepest ascent",
+            "level curve"
+        ],
+        "examples": [
+            "For f(x,y) = x² + y²: ∇f = (2x, 2y)",
+            "∇f points in direction of steepest increase",
+            "Used in optimization, machine learning (gradient descent)"
+        ]
+    },
+    {
+        "name": "Divergence and Curl",
+        "topic": "Vector Calculus",
+        "definition": "Divergence measures source/sink strength; curl measures rotation of vector field.",
+        "formula": "div(F) = ∇·F = ∂Fₓ/∂x + ∂Fᵧ/∂y + ∂Fᶻ/∂z; curl(F) = ∇×F",
+        "keywords": [
+            "divergence",
+            "curl",
+            "vector field",
+            "source",
+            "circulation"
+        ],
+        "examples": [
+            "For F = (x, y, z): div(F) = 3",
+            "For F = (-y, x, 0): curl(F) = (0, 0, 2)",
+            "Divergence theorem, Stokes' theorem"
+        ]
+    },
+    {
+        "name": "Line and Surface Integrals",
+        "topic": "Vector Calculus",
+        "definition": "Integrals over curves and surfaces in vector fields.",
+        "formula": "Line: ∫_C F·dr; Surface: ∬_S F·dS",
+        "keywords": [
+            "line integral",
+            "surface integral",
+            "work",
+            "flux",
+            "parametrization"
+        ],
+        "examples": [
+            "Work done by force F along curve C: W = ∫_C F·dr",
+            "Flux through surface S: Φ = ∬_S F·n dS",
+            "Green's theorem relates line integral to double integral"
+        ]
+    },
+    {
+        "name": "Conditional Probability",
+        "topic": "Advanced Probability",
+        "definition": "Probability of event A given that event B has occurred.",
+        "formula": "P(A|B) = P(A∩B)/P(B), P(B) > 0",
+        "keywords": [
+            "conditional",
+            "Bayes theorem",
+            "independence",
+            "posterior"
+        ],
+        "examples": [
+            "P(disease|positive test) via Bayes' theorem",
+            "Independence: P(A|B) = P(A) iff A, B independent",
+            "Bayes: P(A|B) = P(B|A)P(A)/P(B)"
+        ]
+    },
+    {
+        "name": "Markov Chains",
+        "topic": "Advanced Probability",
+        "definition": "Stochastic process where future state depends only on current state, not history.",
+        "formula": "P(Xₙ₊₁=j | X₀,...,Xₙ) = P(Xₙ₊₁=j | Xₙ) = Pᵢⱼ",
+        "keywords": [
+            "Markov",
+            "transition matrix",
+            "stationary distribution",
+            "memoryless"
+        ],
+        "examples": [
+            "Weather model: sunny→rainy transitions",
+            "PageRank algorithm",
+            "Steady state: πP = π"
+        ]
+    },
+    {
+        "name": "Convex Optimization",
+        "topic": "Optimization",
+        "definition": "Optimization of convex objective functions over convex sets; local minimum is global.",
+        "formula": "min f(x) subject to g(x) ≤ 0, h(x) = 0",
+        "keywords": [
+            "convex",
+            "optimization",
+            "KKT conditions",
+            "gradient descent"
+        ],
+        "examples": [
+            "Linear programming is convex",
+            "Least squares: min ||Ax - b||²",
+            "Support Vector Machines use convex optimization"
+        ]
+    },
+    {
+        "name": "Lagrange Multipliers",
+        "topic": "Optimization",
+        "definition": "Method for finding extrema of functions subject to equality constraints.",
+        "formula": "∇f = λ∇g at extremum of f subject to g(x)=0",
+        "keywords": [
+            "Lagrange",
+            "multiplier",
+            "constrained optimization",
+            "critical point"
+        ],
+        "examples": [
+            "Maximize f(x,y) subject to g(x,y) = c",
+            "Find closest point on curve to origin",
+            "KKT conditions extend to inequality constraints"
+        ]
+    },
+    {
+        "name": "Gradient Descent",
+        "topic": "Optimization",
+        "definition": "Iterative optimization algorithm that moves in direction of steepest descent.",
+        "formula": "xₙ₊₁ = xₙ - α∇f(xₙ) where α is learning rate",
+        "keywords": [
+            "gradient descent",
+            "optimization",
+            "learning rate",
+            "convergence"
+        ],
+        "examples": [
+            "Training neural networks (backpropagation)",
+            "Stochastic gradient descent (SGD) for large datasets",
+            "Adam, RMSprop are variants"
+        ]
+    },
+    {
+        "name": "Numerical Integration",
+        "topic": "Numerical Methods",
+        "definition": "Approximating definite integrals using discrete samples.",
+        "formula": "Trapezoidal: ∫f(x)dx ≈ h[f(a)/2 + f(x₁) + ... + f(xₙ₋₁) + f(b)/2]",
+        "keywords": [
+            "numerical integration",
+            "quadrature",
+            "trapezoidal",
+            "Simpson's rule"
+        ],
+        "examples": [
+            "Trapezoidal rule, Simpson's 1/3 rule",
+            "Gaussian quadrature for higher accuracy",
+            "Monte Carlo integration for high dimensions"
+        ]
+    },
+    {
+        "name": "Root Finding Algorithms",
+        "topic": "Numerical Methods",
+        "definition": "Algorithms to find roots (zeros) of functions numerically.",
+        "formula": "Newton: xₙ₊₁ = xₙ - f(xₙ)/f'(xₙ); Bisection: repeatedly halve interval",
+        "keywords": [
+            "root finding",
+            "Newton-Raphson",
+            "bisection",
+            "secant method"
+        ],
+        "examples": [
+            "Newton's method: quadratic convergence",
+            "Bisection: guaranteed convergence, slower",
+            "Finding zeros of f(x) = x³ - 2x - 5"
+        ]
+    },
+    {
+        "name": "Interpolation",
+        "topic": "Numerical Methods",
+        "definition": "Constructing a function passing through given data points.",
+        "formula": "Lagrange: P(x) = Σ yᵢ Lᵢ(x) where Lᵢ are basis polynomials",
+        "keywords": [
+            "interpolation",
+            "Lagrange",
+            "spline",
+            "polynomial",
+            "fitting"
+        ],
+        "examples": [
+            "Linear interpolation between two points",
+            "Polynomial interpolation (Lagrange, Newton)",
+            "Cubic splines for smooth curves"
+        ]
+    },
+    {
+        "name": "Taylor Series",
+        "topic": "Calculus",
+        "definition": "Representation of a function as an infinite sum of terms calculated from derivatives at a point.",
+        "formula": "f(x) = Σ [f^(n)(a)/n!](x-a)^n",
+        "keywords": [
+            "Taylor series",
+            "Maclaurin",
+            "power series",
+            "expansion",
+            "approximation"
+        ],
+        "examples": [
+            "e^x = 1 + x + x²/2! + x³/3! + ...",
+            "sin(x) = x - x³/3! + x⁵/5! - ...",
+            "cos(x) = 1 - x²/2! + x⁴/4! - ..."
+        ]
+    },
+    {
+        "name": "Multiple Integrals",
+        "topic": "Multivariable Calculus",
+        "definition": "Integration over regions in multiple dimensions.",
+        "formula": "Double: ∬_R f(x,y) dA; Triple: ∭_V f(x,y,z) dV",
+        "keywords": [
+            "double integral",
+            "triple integral",
+            "volume",
+            "Fubini theorem",
+            "change of variables"
+        ],
+        "examples": [
+            "Volume under surface: ∬_R f(x,y) dA",
+            "∭_V dV gives volume of region V",
+            "Polar: dA = r dr dθ; Spherical: dV = ρ²sin(φ) dρ dφ dθ"
+        ]
+    },
+    {
+        "name": "Green's Theorem",
+        "topic": "Vector Calculus",
+        "definition": "Relates line integral around closed curve to double integral over enclosed region.",
+        "formula": "∮_C (P dx + Q dy) = ∬_R (∂Q/∂x - ∂P/∂y) dA",
+        "keywords": [
+            "Green's theorem",
+            "circulation",
+            "flux",
+            "line integral"
+        ],
+        "examples": [
+            "Computing area using line integral",
+            "Verifying conservative vector fields",
+            "2D case of Stokes' theorem"
+        ]
+    },
+    {
+        "name": "Stokes' Theorem",
+        "topic": "Vector Calculus",
+        "definition": "Relates surface integral of curl to line integral around boundary.",
+        "formula": "∮_C F·dr = ∬_S (∇×F)·dS",
+        "keywords": [
+            "Stokes theorem",
+            "curl",
+            "circulation",
+            "surface integral"
+        ],
+        "examples": [
+            "Generalization of Green's theorem to 3D",
+            "Circulation of F around ∂S equals flux of curl F through S",
+            "Applications in electromagnetism"
+        ]
+    },
+    {
+        "name": "Divergence Theorem (Gauss)",
+        "topic": "Vector Calculus",
+        "definition": "Relates flux through closed surface to divergence over enclosed volume.",
+        "formula": "∬_S F·dS = ∭_V (∇·F) dV",
+        "keywords": [
+            "divergence theorem",
+            "Gauss",
+            "flux",
+            "volume integral"
+        ],
+        "examples": [
+            "Total flux out of volume equals total divergence inside",
+            "Gauss's law in electromagnetism: ∬ E·dS = Q/ε₀",
+            "Conservation laws in physics"
+        ]
+    },
+    {
+        "name": "Complex Functions",
+        "topic": "Complex Analysis",
+        "definition": "Functions from complex numbers to complex numbers.",
+        "formula": "f(z) = u(x,y) + iv(x,y) where z = x + iy",
+        "keywords": [
+            "complex function",
+            "analytic",
+            "holomorphic",
+            "Cauchy-Riemann"
+        ],
+        "examples": [
+            "f(z) = z² = (x²-y²) + i(2xy)",
+            "e^(iθ) = cos(θ) + i sin(θ) (Euler's formula)",
+            "Cauchy-Riemann: ∂u/∂x = ∂v/∂y, ∂u/∂y = -∂v/∂x"
+        ]
+    },
+    {
+        "name": "Contour Integration",
+        "topic": "Complex Analysis",
+        "definition": "Integration of complex functions along paths in the complex plane.",
+        "formula": "∮_C f(z) dz; Cauchy's theorem: ∮_C f(z) dz = 0 for analytic f",
+        "keywords": [
+            "contour",
+            "residue",
+            "Cauchy",
+            "complex integration",
+            "pole"
+        ],
+        "examples": [
+            "Residue theorem for evaluating real integrals",
+            "∮_C 1/z dz = 2πi around origin",
+            "Computing improper integrals using residues"
+        ]
+    }
+]

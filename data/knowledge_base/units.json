@@ -1,0 +1,31 @@
+{
+    "si_mappings": {
+        "m": "kg",
+        "F": "N",
+        "a": "m/s^2",
+        "v_i": "m/s",
+        "v_f": "m/s",
+        "t": "s",
+        "d": "m",
+        "E": "J",
+        "P": "W",
+        "p": "kg*m/s",
+        "v0": "m/s",
+        "theta": "degree",
+        "h": "m",
+        "H": "m",
+        "angle": "degree"
+    },
+    "descriptions": {
+        "m": "mass",
+        "F": "Force",
+        "a": "acceleration",
+        "v_i": "initial velocity",
+        "v_f": "final velocity",
+        "t": "time",
+        "d": "displacement",
+        "E": "Energy",
+        "P": "Power",
+        "p": "momentum"
+    }
+}
